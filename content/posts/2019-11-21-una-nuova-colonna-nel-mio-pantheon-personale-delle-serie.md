@@ -1,0 +1,108 @@
+---
+title: Una nuova colonna nel mio pantheon personale delle serie
+author: Raibaz
+type: post
+date: 2019-11-21T10:57:58+00:00
+url: /2019/11/una-nuova-colonna-nel-mio-pantheon-personale-delle-serie/
+featured_image: /wp-content/uploads/2019/11/75588121_10221443178848664_1933066377933881344_o.jpg
+categories:
+  - Cose di cultura
+
+---
+Ci sono quattro serie TV che ho sempre considerato le mie preferite di sempre, quelle per cui il mondo si divide in prima e dopo.
+
+In ordine cronologico di quando le ho viste, sono:<figure class="wp-block-image size-large">
+
+<img src="https://www.raibaz.it/wp-content/uploads/2019/11/Buffy-920x584.jpg" alt="" class="wp-image-289" srcset="https://www.raibaz.it/wp-content/uploads/2019/11/Buffy-920x584.jpg 920w, https://www.raibaz.it/wp-content/uploads/2019/11/Buffy-920x584-300x190.jpg 300w, https://www.raibaz.it/wp-content/uploads/2019/11/Buffy-920x584-768x488.jpg 768w" sizes="(max-width: 920px) 100vw, 920px" /> </figure> 
+
+La serie che ha reso famoso Joss Whedon (anche se prima era già stato cosceneggiatore di Toy Story, mica pizza e fichi) e che per prima ha mostrato al mondo, e a me, che la narrazione seriale televisiva aveva spazi e tempi per raccontare storie fighissime, non banali e intricate il giusto.
+
+Facevo il liceo, e Buffy non me la perdevo quasi mai.
+
+Whedon poi ha fatto altre cose degne di nota, tipo Dollhouse che è forse ancora meglio qualitativamente ma meno importante per la storia delle serie TV, o dirigere quei due film in cui ci sono tutti i supereroi Marvel che si menano, ma picchi di genio creativo mescolati al successo mainstream come Buffy non gli sono usciti più.
+
+Nessun&#8217;altra serie, per dire, ha un episodio musical più figo e contemporaneamente più importante di &#8220;Once More With Feeling&#8221;.<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio">
+
+<div class="wp-block-embed__wrapper">
+</div></figure> 
+
+Dopo Buffy, sempre negli anni &#8217;90, c&#8217;era _l&#8217;altra_ serie che non si poteva schivare neanche volendo e ha riscritto i canoni della serialità televisiva:<figure class="wp-block-image size-large">
+
+<img src="https://www.raibaz.it/wp-content/uploads/2019/11/TheXFiles_6647600-XFILES._V392940577_SX1080_-1024x704.jpg" alt="" class="wp-image-290" srcset="https://www.raibaz.it/wp-content/uploads/2019/11/TheXFiles_6647600-XFILES._V392940577_SX1080_-1024x704.jpg 1024w, https://www.raibaz.it/wp-content/uploads/2019/11/TheXFiles_6647600-XFILES._V392940577_SX1080_-300x206.jpg 300w, https://www.raibaz.it/wp-content/uploads/2019/11/TheXFiles_6647600-XFILES._V392940577_SX1080_-768x528.jpg 768w, https://www.raibaz.it/wp-content/uploads/2019/11/TheXFiles_6647600-XFILES._V392940577_SX1080_.jpg 1080w" sizes="(max-width: 1024px) 100vw, 1024px" /> </figure> 
+
+Ho sempre schifato le serie con i poliziotti, probabilmente perché a mia madre invece piacciono un sacco e quindi da piccolo sono stato sovraesposto a tutti i vari Colombo, Perry Mason, Signoraingiallo, Poirot e tutti quei maledetti vecchi che non si fanno i cazzi loro e inciampano sempre in qualche mortoammazzato, e tuttora appena vedo un poliziotto in tv cambio canale, ma X-Files era diversa.
+
+Non era solo la fantascienza a rendere tutto diverso, era più il fatto che quasi sempre all&#8217;investigazione e all&#8217;aspetto procedural si univa un sacco di indagine emotiva sulle strane creature in cui si imbattevano Mulder e Scully e, per la prima volta nella mia esperienza, del _social commentary_ fatto attraverso la fantascienza stessa, da sempre uno degli strumenti più potenti per descrivere la società in maniera sottile.
+
+E poi, dopo qualche stagione, gli intrighi completamente fuori di testa di Mulder rapito dagli alieni, dell&#8217;uomo che fuma, di Skinner che non si sa da che parte sta e tutto quel cinema lì che in tante serie, da Alias a 24 per dire le più famose, hanno cercato di replicare ma non erano comunque più le prime.
+
+E poi davvero, se sei della mia generazione hai passato un decennio a sentire questa in ogniddove:<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+<div class="wp-block-embed__wrapper">
+</div><figcaption>Pure nell&#8217;ottima versione di Dj Dado</figcaption></figure> 
+
+A questo punto della mia vita di spettatore, faccio l&#8217;università, vado a studiare a Como e affronto un pendolarismo lunghissimo, due ore di treno all&#8217;andata e due al ritorno, e mi dico che è il caso di recuperare una serie di quando ero piccolo, guardacaso pure questa con una sigla che magari avete sentito qualche altra volta:<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+<div class="wp-block-embed__wrapper">
+</div></figure> 
+
+L&#8217;ho vista con più di dieci anni di ritardo, è vero, ma non penso serva che lo dica io, che il mondo si divide in &#8220;prima di Twin Peaks&#8221; e &#8220;dopo Twin Peaks&#8221;.
+
+Il ricordo che avevo io era di una pubblicità insistentissima sulle allora reti Finivest che a qualunque ora di qualunque giorno ti chiedevano chi cazzo avesse ucciso Laura Palmer, ma all&#8217;epoca ero troppo piccolo per stare alzato a vederla la domenica sera.
+
+E meno male, aggiungerei.
+
+Lynch è in assoluto una delle persone che mi fanno più paura e inquietudine al mondo (vogliamo parlare della scena di _Strade Perdute_ in cui il tipo senza sopracciglia passa il telefono al protagonista e all&#8217;altro capo del telefono c&#8217;è _lui_?), Twin Peaks mi ha terrorizzato visto a vent&#8217;anni, se l&#8217;avessi visto a otto penso sarei come minimo finito nel _tunnel delladdroga_.
+
+Follia a palate, _social commentary_ pure qui, ma più sottile e cammuffato, personaggi memorabili, gente che parla al contrario al contrario, David Duchovny irriconoscibile vestito da donna, materiale da meme ancora valido a quasi trent&#8217;anni di distanza, una colonna sonora **incredibile**: Lynch con Twin Peaks ha fatto dozzine di cose che nessuno si era mai sognato di fare in una serie TV, che magari adesso sono comuni ma che hanno cambiato il modo di fare e guardare le serie.
+
+Fin qui però ho sempre vissuto le serie TV, appunto, in TV, o al massimo scaricate e viste offline: quando ho visto, in ritardo, Twin Peaks, Internet esisteva già e c&#8217;era già un sacco di gente che scriveva papiri per dire la sua, ma era comunque un fenomeno di quindici anni prima.
+
+Doveva ancora arrivare un fenomeno che incendiasse i forum e i blog dal secondo dopo i titoli di coda di ogni puntata e scatenasse masse di nerd alla ricerca di ogni singolo dettaglio/indizio/interpretazione; una serie in cui non ci si capisse un cazzo di niente e in cui gli showrunner non si sa se andassero a caso o stessero coglionando il pubblico, o tutte e due.
+
+Doveva ancora arrivare la quarta colonna del mio pantheon personale delle serie TV nonché quella che finora era la mia serie preferita.<figure class="wp-block-image size-large">
+
+<img src="https://www.raibaz.it/wp-content/uploads/2019/11/mi1bccotmbweagmp8byy.gif" alt="" class="wp-image-291" /> </figure> 
+
+Anche questa l&#8217;ho snobbata e iniziata in ritardo (&#8220;ma sai che cazzo me ne frega di questi caduti con l&#8217;aereo), ma per me esiste la televisione prima dell&#8217;inquadratura dell&#8217;occhio di Jack che si spalanca, e poi c&#8217;è la televisione dopo _Lost._
+
+Giornate intere a leggere su internet che cazzo fosse il fumo nero, chi fosse Jacob, quale fosse il piano di Ben Linus; l&#8217;ultima stagione con la sveglia dieci minuti prima una volta a settimana per scaricare la puntata appena sveglio e vederla in metro andando in ufficio, perché dovevo sapere prima possibile; smetterla definitivamente con le serie doppiate e i sottotitoli perché bisognava aspettare troppo; il finale invece visto con calma a casa, sullo schermone, con gli amici, dovendo mettere in pausa ripetutamente perché piangevo come una fontana.
+
+Frasi (&#8220;I always have a plan&#8221;? &#8220;We have to go back&#8221;? &#8220;If we can&#8217;t live together, we&#8217;re gonna die alone&#8221;? &#8220;See you in another life, brother&#8221;? **&#8220;Not Penny&#8217;s Boat&#8221;?**), scene, puntate intere, come &#8220;The Constant&#8221;, che tuttora so a memoria.<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+<div class="wp-block-embed__wrapper">
+</div><figcaption>Sono passati undici anni, quando Penny risponde al telefono scoppio a piangere come un bambino, ancora, e se rimani insensibile evidentemente sei morto e non lo sai.</figcaption></figure> 
+
+Per la prima volta così tanti personaggi, tutti approfonditi degnamente, con la storia al servizio di ognuno e non viceversa, quasi mai la sensazione che qualcuno fosse lì solo per far avanzare la vicenda ma al contrario, che le cose che succedevano fossero solo un pretesto per raccontare, coi flashback, i flashforward e i flashsideways, la storia di ognuno.
+
+Il finale, su cui ancora, a distanza di anni, litigo con laggente: io sono uno di quelli che l&#8217;hanno adorato, proprio per il paragrafo qui sopra: non mi interessa che finisca in una chiesa o no, che non si capisca se sono tutti morti o era tutto un sogno o che altro (e affanculo gli spoiler, se nel 2019 non avete visto _Lost_ siete persone orribili e vi meritate di peggio), che nessuno spieghi cos&#8217;è quell&#8217;isola.
+
+Mi interessava, e mi interessa, che tutto quello che succede sia un pretesto per dei personaggi clamorosi di raccontare la propria storia, e presi singolarmente, ognuno di loro la conclude degnamente.
+
+Da Lost in poi ho guardato altri dozzilioni di serie, e non solo io: il fenomeno è definitivamente esploso, il mondo si è accorto che con i tempi narrativi di un&#8217;ora a settimana si potevano raccontare storie molto più articolate, approfondite e interessanti delle due ore di un film, e i network si sono accorti che lasciando molto all&#8217;immaginazione degli spettatori e alle discussioni sull&#8217;Internet li si teneva fidelizzati e si faceva share, ma niente ha mai raggiunto la combo valore artistico &#8211; successo di Lost.
+
+Game Of Thrones ci si è avvicinato, almeno come hype, ma in fondo infondo, stringi stringi, è una soap opera con gli spadoni; Breaking Bad mi dicono essere molto ben scritto e recitato, ma io l&#8217;ho trovato una palla allucinante e l&#8217;ho mollato a metà seconda stagione; Dexter ha i poliziotti (vedi sopra); Bojack Horseman ci si avvicina, ma ha un tono completamente diverso, e in ogni caso, ormai le serie con le trame contorte sono la norma, ma la prima, e la migliore di tutte finora, rimaneva Lost.
+
+Questa settimana, però, è il caso di aggiornare la lista delle serie per cui il mondo si divide in prima e dopo.<figure class="wp-block-image size-large">
+
+<img src="https://www.raibaz.it/wp-content/uploads/2019/11/75588121_10221443178848664_1933066377933881344_o-1024x512.jpg" alt="" class="wp-image-296" srcset="https://www.raibaz.it/wp-content/uploads/2019/11/75588121_10221443178848664_1933066377933881344_o-1024x512.jpg 1024w, https://www.raibaz.it/wp-content/uploads/2019/11/75588121_10221443178848664_1933066377933881344_o-300x150.jpg 300w, https://www.raibaz.it/wp-content/uploads/2019/11/75588121_10221443178848664_1933066377933881344_o-768x384.jpg 768w, https://www.raibaz.it/wp-content/uploads/2019/11/75588121_10221443178848664_1933066377933881344_o-1536x768.jpg 1536w, https://www.raibaz.it/wp-content/uploads/2019/11/75588121_10221443178848664_1933066377933881344_o.jpg 1904w" sizes="(max-width: 1024px) 100vw, 1024px" /> <figcaption>Quattro anni e un Oscar dopo aver pensato &#8220;oh ma sto Rami Malek mi pare capace, secondo me farà strada&#8221;, poco prima dei sicurissimi Emmy e altri premi che vincerà quest&#8217;anno.</figcaption></figure> 
+
+Con la puntata di questa settimana, la 4&#215;07 (o meglio, 407, &#8220;Proxy Authentication Required&#8221;, visto che in questa stagione i titoli delle puntate corrispondono agli status HTTP 400), e in generale con la quarta stagione, che non è ancora conclusa ma già ora è sufficiente, Mr. Robot ha fatto il salto da &#8220;serie molto bella&#8221; a, appunto, &#8220;serie che divide il mondo in prima e dopo&#8221;.
+
+Ok, la premessa era di quelle con cui con me si vince facile: ci sono gli hacker, c&#8217;è il tema della salute mentale ogni momento è praticamente una masterclass di _unreliable narrator_ per cui qualunque cosa vedi succedere non è detto che succeda veramente, ci sono attori clamorosi (oltre a Rami Malek che, appunto, ha vinto un Oscar, Christian Slater è tantissima roba, ma pure i comprimari tipo BD Wong che fa due ruoli in uno, o Bobby Cannavale, o la figlia di Meryl Streep), ci sono dei dialoghi scritti e interpretati da paura, da fare invidia al grande maestro dei dialoghi nelle serie, Aaron Sorkin, tipo questo:<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+<div class="wp-block-embed__wrapper">
+</div><figcaption>&#8220;Don&#8217;t mistake my generosity for generosity&#8221;, e tutti gli altri villain del mondo muti.</figcaption></figure> 
+
+È una serie di dettagli, Mr. Robot, una serie in cui, più che mai, si ha la sensazione che niente sia messo lì per caso: te ne rendi conto, per la prima volta, verso la fine della prima stagione, quando in una [scena clou][1] c&#8217;è quella musica al pianoforte che l&#8217;hai già sentita da qualche parte ma non ti ricordi dove ah sì ecco dove ma allora stai a vedere che E INFATTI nella puntata dopo c&#8217;è _il_ big reveal.
+
+E ora, a poche puntate dalla fine e dopo il reveal gigantesco della puntata di questa settimana che cambia tutto, è impossibile non rendersi conto che Sam Esmail aveva le idee chiarissime su tutto quello che sarebbe successo fin dall&#8217;inizio, a differenza di molte altre serie che a un certo punto allungano il brodo (e forse in questo il fatto che ci sia la fine in vista è un vantaggio), ma oltre a questo, che già la mette davanti alla maggior parte delle altre serie, Mr. Robot è una serie in cui non è solo la big picture a essere estremamente a fuoco.
+
+È, appunto, una serie di dettagli, magari buttati lì apparentemente senza senso (perché c&#8217;è Alf a un certo punto?) ma che poi in realtà sono funzionali alla storia, o almeno ad aggiungere un livello di interpretazione aggiuntivo (perché l&#8217;ultima puntata ha quella struttura dichiarata in cinque atti? È solo una citazione di Tarantino, visto anche che è girata con l&#8217;aspect ratio diverso, che è un&#8217;altra tarantinata, oppure c&#8217;è un motivo?) che rappresenta perfettamente il modo di fruizione di qualsiasi opera d&#8217;arte di fine anni 10.
+
+È una serie che puoi vedere in maniera superficiale, gustandoti la storia dell&#8217;hack più grosso della storia, degli intrighi internazionali e dei problemi mentali di Elliot, e già così è validissima, ma se hai voglia di metterci del tuo ha un sacco di strati di dettagli/citazioni/riferimenti per cui potresti infilarti in tunnel da cui non esci mai più: io stesso ormai passo più tempo su [Reddit][2] dopo le puntate di quanto durino le puntate stesse a scoprire cose di cui non mi ero accorto subito, tipo che una puntata &#8211; bellissima, tra l&#8217;altro &#8211; è completamente senza dialoghi.
+
+È una serie, già a cinque puntate dalla fine, della madonna, scritta, girata e recitata come davvero poche altre, e per me è nel pantheon delle migliori di tutti i tempi, assieme a quelle altre lì.
+
+ [1]: https://www.youtube.com/watch?v=CPY-Ou8MR44
+ [2]: https://www.reddit.com/r/MrRobot/

@@ -1,0 +1,5 @@
+baseURL = "http://example.org/"
+languageCode = "it-it"
+title = "Raibaz."
+theme = "coder"
+enableEmoji = true

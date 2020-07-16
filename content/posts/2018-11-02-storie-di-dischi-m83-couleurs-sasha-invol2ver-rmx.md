@@ -1,0 +1,51 @@
+---
+title: 'Storie di dischi: M83 – “Couleurs (Sasha Invol2ver rmx)”'
+author: Raibaz
+type: post
+date: 2018-11-02T09:07:27+00:00
+url: /2018/11/storie-di-dischi-m83-couleurs-sasha-invol2ver-rmx/
+categories:
+  - Musica
+
+---
+Per noi anziani del clubbing ci sono dischi che hanno un valore speciale, ben oltre quello musicale: gli zarri li chiamano &#8220;dischi storia&#8221;, a me piace pensare semplicemente che siano dischi che associo a ricordi piacevoli e difficilmente ripetibili.
+
+Spesso e volentieri sono anche dei bei missiletti, o comunque dischi che desterebbero dell&#8217;attenzione anche senza i ricordi associati, ma vuoi mettere pensare a [&#8220;Little Eternity&#8221; di Ingo Boss][1] senza la storia, che ho raccontato mille volte, di Sven Vath che fa nevicare? Quanto è più bello ripensare al [remix di James Holden di &#8220;Breathe On Me&#8221;][2] di Britney Spears ricordandosi di quella volta che Marco Carola, prima che lo rapissero gli alieni, ci ha chiuso un set allucinante in piramide al Cocoricò, col sole già alto sul mare?
+
+Ora, il sottoscritto non è esattamente, ne è mai stato, un dj famoso, ma qualche soddisfazione me la sono tolta, e una delle più grosse che mi ricordo è legata al disco di cui parla il post di oggi.
+
+Non ricordo esattamente l&#8217;anno, potrebbe essere stato il 2007 o lì attorno, forse prima, fa poca differenza, fatto sta che quell&#8217;anno a capodanno vado a suonare, per gentile intercessione del buon Federico, in uno dei tanti posti storici del clubbing italico che adesso ci guardano da lassù, lo Zerodieci di Genova.
+
+<div class="wp-block-image">
+  <figure class="aligncenter"><img src="https://raibaz.it/wp-content/uploads/2018/11/Zerodieci-2009.jpg" alt="" class="wp-image-94" srcset="https://www.raibaz.it/wp-content/uploads/2018/11/Zerodieci-2009.jpg 388w, https://www.raibaz.it/wp-content/uploads/2018/11/Zerodieci-2009-300x213.jpg 300w" sizes="(max-width: 388px) 100vw, 388px" /><figcaption>Ho chiesto a Google e ho scoperto che era il 2009.</figcaption></figure>
+</div>
+
+Non ci ero mai stato prima e non ci sono più tornato, anche perché non è durato molto dopo (no, non sono io che porto sfiga anche se praticamente tutti i posti in cui suonavo stabilmente hanno chiuso, è solo che sono vecchio), ma la sala sotterranea col soffitto basso, il buio praticamente dappertutto tranne in console e l&#8217;impiantone non me la sono mai più dimenticata.
+
+Quella sera, come tutti i capodanni, arrivo lì con il succitato Fede e il resto degli amici che mi hanno seguito dal norde piuttosto tardi e ben dopo mezzanotte, visto che la cena ovviamente va per le lunghe e che comunque suonerò a notte inoltrata: l&#8217;orario esatto è un altro particolare che non ricordo e che fa poca differenza, quello che fa la differenza è il set in questione e un momento particolare, quello del mio ultimo disco.
+
+Il set in sé non lo ricordo come il migliore della mia breve carriera né come il peggiore, ricordo semplicemente di aver suonato le cose che suonavo all&#8217;epoca, tra cui [&#8220;Funk Excursion&#8221; di Luciano e Serafin][3], forse uno dei quattro-cinque dischi più Raibaz di sempre, ma è quando è il momento di mettere l&#8217;ultimo che il talento, l&#8217;intuizione, la musa o semplicemente una botta di culo prendono il sopravvento e mi regalano una delle mie esperienze migliori di sempre dietro una console.
+
+Forse perché so quanto Fede sia, come me, come molti altri e come fondamentalmente chiunque abbia due orecchie e un cuore, un estimatore di Sasha, o forse perché veramente ho avuto solo culo, ma quella sera avevo in mente fin dall&#8217;inizio di suonare il suo remix di &#8220;Couleurs&#8221; di M83, uscito da poco nel secondo episodio della sua serie di compilation &#8220;Involver&#8221;, tra i primi a portare l&#8217;arte del mixcd a un livello superiore aggiungendo tantissimo input da parte del selezionatore e trasformando una semplice raccolta di tracce in un lavoro originale.
+
+Insomma, tra una cosa e l&#8217;altra sembro aver fatto il mio, e mentre il mio tempo allocato (anche qui, sarà stata un&#8217;ora? Due? Dieci? Vattelo a ricordare, non è questo il punto) volge al termine, salto tutta l&#8217;intro senza cassa, punto il CDJ, metto a tempo, alzo il canale del remix di &#8220;The Son Of God&#8221;, finisce l&#8217;intro e parte la bassata.
+
+Diversi dei miei amici pensano che abbia deciso di chiudere con &#8220;The Man With The Red Face&#8221;, un altro dei dischi più Raibaz di sempre per mille motivi, che in effetti ha una bassata molto simile, ma no, anche se era possibilissimo e l&#8217;ho fatto diverse altre volte, questa volta chiudo con un disco che non avevo mai messo in pubblico prima di allora. Sorpresa.
+
+Culo, musa, intuizione, (culo, più che altro): sono riuscito a fare quello che fa il mio ideale di DJ, ho portato la gente in un posto familiare ma nuovo: è la conclusione perfetta della storia che ho raccontato quella sera.
+
+L&#8217;urlo stupefatto (non è un termine scelto a caso, ovviamente, si sta parlando comunque di quasi-mattina la notte di capodanno e non si era certo in un posto di puritani) di tutti gli astanti è una di quelle cose che a distanza di X anni ricordo ancora e un pochino mi smuove ancora, ma il momento cardine di tutta l&#8217;esperienza è quello in cui, di nuovo, per intuizione, colpo di genio, volere della musa o botta di culo mi viene l&#8217;idea di spegnere la lampadina dell&#8217;Ikea che illuminava la console e che era stata il mio unico alleato nella ricerca del disco giusto in mezzo alle tenebre per tutta la durata del set.
+
+Tutto spento, sono accesi solo i leddini del mixer, gli schermi dei CDJ e le lucine dei piatti che vaffanculo, tanto ho finito e si riaccendono subito, spengo pure quelle.
+
+Buio dappertutto.
+
+Non si vede quasi niente, c&#8217;è solo Sasha in una delle sue migliori manifestazioni di sempre, emozionale, commovente e fomentoso tutto assieme. Ci sono i miei amici e c&#8217;è una platea di sconosciuti, non vedo nessuno di loro, sono da solo nelle tenebre e nascosto dietro la console, dentro la borsa dei dischi, dentro l&#8217;abbraccio delle cuffie attorno al collo, in quei posti dove mi piace(va) nascondermi per parlare alla gente coi dischi anziché con le parole, ma siamo tutti insieme, a sentire la fine della storia che ho raccontato e la storia che racconta Sasha nel suo remix stratosferico.
+
+Ho pianto e mi sono commosso altre volte dietro e davanti alle console, probabilmente lo farò ancora, ma come quella volta, raramente.
+
+Voi lo sentite, il remix di Sasha per M83, e pensate &#8220;cazzo che disco della madonna&#8221;, io lo risento e torno in quel buio lì, e da quella volta per me è ancora più un disco della madonna. Un &#8220;disco storia&#8221;, se volete, e adesso la storia la sapete pure voi.
+
+ [1]: https://www.youtube.com/watch?v=wFm_8aEB85M
+ [2]: https://www.youtube.com/watch?v=dC7G8LpckhY
+ [3]: https://www.youtube.com/watch?v=Mx8svq_cWZ4
