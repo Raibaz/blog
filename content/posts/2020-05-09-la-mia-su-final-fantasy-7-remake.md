@@ -19,9 +19,10 @@ Considerazioni personali a parte, cosa ne penso del gioco in sé? Ormai è uscit
 
 Certo, mi rendo conto che non è, a tutti gli effetti, un capolavoro in senso stretto: non è un gioco profondo come Death Stranding [che riesce a essere bello pure quando è brutto][2], né un gioiello finemente cesellato come [Hollow Knight][3], per fare due esempi di veri capolavori a cui ho giocato di recente: ha diverse pecche, su tutte i corridoi lunghissimi e la linearità estrema, che nel 2020 sono piuttosto difficili da digerire, ma sopperisce con una trama bellissima, che prende le mosse da quella già splendida dell&#8217;originale e ci aggiunge dettagli senza quasi mai sconfinare nel superfluo, e con un combat system davvero ben curato.
 
-Ok, è piuttosto facile, almeno nella prima run della storyline principale: io stesso che non sono un drago sono morto per la prima volta nello scontro col boss finale, per cui se fossi stato leggermente più bravo l&#8217;avrei potuto tranquillamente finire senza mai morire, che sembra una bestemmia in un tempo rovinato da quella porcheria di Dark Souls e dei suoi compari in cui &#8220;ma non vedi come si muore male da dio?&#8221;, ma è una caratteristica che si inserisce perfettamente in un genere, quello dei JRPG, in cui raccontare la storia è il focus principale, da cui una sfida troppo dura distoglierebbe l&#8217;attenzione, e che solo una volta esaurita la storyline principale di solito squaderna le difficoltà vere, sotto forma di side quest e boss fight opzionali.<figure class="wp-block-image size-large">
+Ok, è piuttosto facile, almeno nella prima run della storyline principale: io stesso che non sono un drago sono morto per la prima volta nello scontro col boss finale, per cui se fossi stato leggermente più bravo l&#8217;avrei potuto tranquillamente finire senza mai morire, che sembra una bestemmia in un tempo rovinato da quella porcheria di Dark Souls e dei suoi compari in cui &#8220;ma non vedi come si muore male da dio?&#8221;, ma è una caratteristica che si inserisce perfettamente in un genere, quello dei JRPG, in cui raccontare la storia è il focus principale, da cui una sfida troppo dura distoglierebbe l&#8217;attenzione, e che solo una volta esaurita la storyline principale di solito squaderna le difficoltà vere, sotto forma di side quest e boss fight opzionali.
 
-<img src="https://www.raibaz.it/wp-content/uploads/2020/05/Final-Fantasy-7-Remake-New-Gameplay-Features-13.jpg" alt="" class="wp-image-384" srcset="https://www.raibaz.it/wp-content/uploads/2020/05/Final-Fantasy-7-Remake-New-Gameplay-Features-13.jpg 958w, https://www.raibaz.it/wp-content/uploads/2020/05/Final-Fantasy-7-Remake-New-Gameplay-Features-13-300x168.jpg 300w, https://www.raibaz.it/wp-content/uploads/2020/05/Final-Fantasy-7-Remake-New-Gameplay-Features-13-768x430.jpg 768w" sizes="(max-width: 958px) 100vw, 958px" /> <figcaption>Classico esempio di una cosa in cui è facilissimo fare il tanto che basta per avanzare nella storyline principale e in cui è letteralmente impossibile battere l&#8217;ultimo livello</figcaption></figure> 
+![pic](/wp-content/uploads/2020/05/Final-Fantasy-7-Remake-New-Gameplay-Features-13.jpg)
+Classico esempio di una cosa in cui è facilissimo fare il tanto che basta per avanzare nella storyline principale e in cui è letteralmente impossibile battere l&#8217;ultimo livello.
 
 La parte principale del gioco, quindi, abbiamo detto essere la trama: e com&#8217;è, la trama di Final Fantasy 7 remake? È la stessa dell&#8217;originale, per cui sì ok bella ma anche basta, oppure c&#8217;è qualcosa di nuovo? E se c&#8217;è qualcosa di nuovo, è incastrato bene in una struttura narrativa che stava benissimo già da sola oppure è del contenuto aggiunto a forza per allungare il brodo?
 
@@ -37,9 +38,10 @@ L&#8217;unico a essere un po&#8217; un involucro vuoto è Cloud, ma è chiaramen
 
 Gli avvenimenti sono gli stessi però _di più_, più grossi, più estesi, più dettagliati, come nel caso del Wall Market e di tutte le missioni al suo interno che sono una gioia per gli occhi, i personaggi principali sono gli stessi però  _di più_, come si è appena detto, eppure, dove questo remake brilla davvero sono i personaggi secondari e quelli meno importanti ancora.
 
-Dove questo remake brilla davvero, in pratica, sono Biggs, Wedge, Jessie e i passanti.<figure class="wp-block-image size-large">
+Dove questo remake brilla davvero, in pratica, sono Biggs, Wedge, Jessie e i passanti.
 
-<img src="https://www.raibaz.it/wp-content/uploads/2020/05/maxresdefault-1024x576.jpg" alt="" class="wp-image-385" srcset="https://www.raibaz.it/wp-content/uploads/2020/05/maxresdefault-1024x576.jpg 1024w, https://www.raibaz.it/wp-content/uploads/2020/05/maxresdefault-300x169.jpg 300w, https://www.raibaz.it/wp-content/uploads/2020/05/maxresdefault-768x432.jpg 768w, https://www.raibaz.it/wp-content/uploads/2020/05/maxresdefault.jpg 1280w" sizes="(max-width: 1024px) 100vw, 1024px" /> <figcaption>Tipo, voi l&#8217;avreste mai detto che Biggs era Charlie Sheen?</figcaption></figure> 
+![pic](/wp-content/uploads/2020/05/maxresdefault-1024x576.jpg)
+Tipo, voi l&#8217;avreste mai detto che Biggs era Charlie Sheen?
 
 Meri device narrativi nell&#8217;originale, funzionali all&#8217;avanzamento della storia, i primi tre nel remake diventano personaggi a tutti gli effetti, con caratteri diversi tra loro e molto curati e con delle sottotrame e dei dettagli che li rendono molto più importanti; lo stesso accade con i passanti, ora che non è più possibile sottrarsi alle loro parole ed è quindi inevitabile sentire cosa pensano di quello che sta succedendo a Midgar.
 
@@ -55,10 +57,9 @@ Lo fa in un modo che per me è estremamente rispettoso e attento, ma al tempo st
 
 Senza stare a spoilerare quello che succede nel remake, c&#8217;è tutta una tematica legata all&#8217;ineluttabilità del destino e alla possibilità di sfuggirci, che poi è quella che guida il finale nel momento in cui diverge dalla storia originale, che è assolutamente impossibile non pensare che si leghi anche a quell&#8217;avvenimento lì.
 
-Più volte nel corso della trama, e soprattutto nel finale, i protagonisti lottano contro delle forze che cercano di fare in modo che le cose vadano come è scritto che vadano, in un gioco metanarrativo che richiama quello che hanno fatto i fan per gli ultimi ventitré anni alla disperata ricerca di un modo per far resuscitare, o non far morire, Aerith: un remake del gioco originale è l&#8217;occasione perfetta per far dire a tutti i fan del mondo &#8220;se lo rifacessi, farei tutto il possibile perché non morisse&#8221;, e cercare di non rivivere lo straniamento irrimediabile dopo questa scena:<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio">
+Più volte nel corso della trama, e soprattutto nel finale, i protagonisti lottano contro delle forze che cercano di fare in modo che le cose vadano come è scritto che vadano, in un gioco metanarrativo che richiama quello che hanno fatto i fan per gli ultimi ventitré anni alla disperata ricerca di un modo per far resuscitare, o non far morire, Aerith: un remake del gioco originale è l&#8217;occasione perfetta per far dire a tutti i fan del mondo &#8220;se lo rifacessi, farei tutto il possibile perché non morisse&#8221;, e cercare di non rivivere lo straniamento irrimediabile dopo questa scena:
 
-<div class="wp-block-embed__wrapper">
-</div></figure> 
+{{< youtube Wx3duFYCcho >}}
 
 La trama del remake non ci arriva, e chissà se e quando uscirà un seguito che ci arriverà, ma quello è uno dei momenti più importanti di tutto il gioco, era inevitabile farci i conti in un remake e questo remake lo fa eccellentemente, dicendoci &#8220;lo so che avete sofferto per quella scena lì e sono ventitré anni che cercate di evitare che succeda: e se si potesse?&#8221;
 
@@ -66,15 +67,16 @@ La trama del remake non ci arriva, e chissà se e quando uscirà un seguito che 
 
 E infine, last but not least: lo sapevo ma l&#8217;avevo dimenticato più volte, nonostante sia pure andato al concerto con le colonne sonore quando è passato da Milano, ma che musiche incredibili aveva l&#8217;originale?
 
-Praticamente tutti i temi, o almeno quelli che vengono riproposti nel remake, hanno tre o quattro note che bastano a fartelo ricordare tutto, e nel ricordarlo, a riportarti esattamente alle scene in cui l&#8217;hai sentito nell&#8217;originale: il tema di Aerith, quello di Sephiroth, e persino quello dei Chocobo, stanno in quel sweet spot a cavallo tra la facilità di ricordarteli ed entrarti in testa per sempre e l&#8217;essere comunque raffinati nel dipingere quadri interi con pochissime note.<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio">
+Praticamente tutti i temi, o almeno quelli che vengono riproposti nel remake, hanno tre o quattro note che bastano a fartelo ricordare tutto, e nel ricordarlo, a riportarti esattamente alle scene in cui l&#8217;hai sentito nell&#8217;originale: il tema di Aerith, quello di Sephiroth, e persino quello dei Chocobo, stanno in quel sweet spot a cavallo tra la facilità di ricordarteli ed entrarti in testa per sempre e l&#8217;essere comunque raffinati nel dipingere quadri interi con pochissime note.
 
-<div class="wp-block-embed__wrapper">
-</div><figcaption>Bastano le prime tre note di questo a gettarmi in una valle di lacrime e a farmi avere di nuovo quattordici anni.</figcaption></figure> 
+{{< youtube fIqKWLkm2-g >}}
+
+Bastano le prime tre note di questo a gettarmi in una valle di lacrime e a farmi avere di nuovo quattordici anni.
 
 Insomma, io ero già contento in partenza già solo rivedendo personaggi che sono stati così importanti per la mia formazione, come lo sono stato vedendo quella porcheria di Advent Children, ma questo invece è bello vero, nel giusto mezzo tra il fanservice e il contenuto originale, tra l&#8217;omaggio e le aggiunte, tra le strizzate d&#8217;occhio e le palle curve che ti spiazzano.
 
 Per me che sono un fan, è bello davvero un sacco.
 
- [1]: https://www.raibaz.it/2019/03/flinty/
- [2]: https://www.raibaz.it/2020/01/death-stranding-e-bellissimo/
- [3]: https://www.raibaz.it/2019/04/hollow-knight-e-un-fottuto-capolavoro/
+ [1]: /2019/03/flinty/
+ [2]: /2020/01/death-stranding-e-bellissimo/
+ [3]: /2019/04/hollow-knight-e-un-fottuto-capolavoro/

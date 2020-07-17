@@ -24,30 +24,30 @@ La parte legata strettamente a S3 è piuttosto straightforward: si tratta, fonda
 
 Poi, siccome non ci piace tenere le credenziali salvate nei repo, dai build.gradle le recupereremo così:
 
-<div style="height: 250px; position:relative; margin-bottom: 50px;" class="wp-block-simple-code-block-ace">
-  <pre class="wp-block-simple-code-block-ace" style="position:absolute;top:0;right:0;bottom:0;left:0" data-mode="php" data-theme="monokai" data-fontsize="14" data-lines="Infinity" data-showlines="true" data-copy="false">allprojects {
+{{< highlight gradle >}}
+  allprojects {
     awsAccessKeyId = System.getenv("aws_access_key_id") ?: findProperty("aws_access_key_id") ?: ""
     awsSecretAccessKey = System.getenv("aws_secret_access_key") ?: findProperty("aws_secret_access_key") ?: ""
-}</pre>
-</div>
+  }
+{{< /highlight >}}
 
 Questo, oltre a essere meglio che avere le credenziali hardcoded nel build.gradle, ha anche il vantaggio che permette di mettere la coppia chiave-secret nel gradle.properties globale e dimenticarsene forever and ever, senza dover copiarle in ogni progetto che è un po&#8217; il razionale di tutto ciò.
 
 Fatto questo, dobbiamo dire a gradle che esiste il nostro repository, e gradle, fortunatamente, supporta proprio i bucket S3, tra le altre cose, per cui sarà sufficiente questo:
 
-<div style="height: 250px; position:relative; margin-bottom: 50px;" class="wp-block-simple-code-block-ace">
-  <pre class="wp-block-simple-code-block-ace" style="position:absolute;top:0;right:0;bottom:0;left:0" data-mode="php" data-theme="monokai" data-fontsize="14" data-lines="Infinity" data-showlines="true" data-copy="false">repositories {
+{{< highlight gradle >}}
+  repositories {
         mavenCentral()
 
         maven {
-            url = "s3://&lt;il nome del vostro bucket>"
+            url = "s3://<il nome del vostro bucket>"
             credentials(AwsCredentials) {
                 accessKey = awsAccessKeyId
                 secretKey = awsSecretAccessKey
             }
         }
-    }</pre>
-</div>
+    }
+{{< /highlight >}}
 
 Ovviamente [mavenCentral][5] lo teniamo come prioritario, ma in seconda battuta diciamo a gradle che le cose che non trova lì, come la nostra libreria comune, le cerca su quest&#8217;altro nuovo repository.
 
@@ -69,20 +69,19 @@ E a proposito di cose che cambiano di frequente, pensate forse funzioni tutto co
 
 Come si fa? Si fa così: innanzitutto la dipendenza va di chiarata come `changing`, cioè
 
-<div style="height: 250px; position:relative; margin-bottom: 50px;" class="wp-block-simple-code-block-ace">
-  <pre class="wp-block-simple-code-block-ace" style="position:absolute;top:0;right:0;bottom:0;left:0" data-mode="php" data-theme="monokai" data-fontsize="14" data-lines="Infinity" data-showlines="true" data-copy="false">api("it.tuaazienda:tualibreria:1.0-SNAPSHOT") { changing = true }</pre>
-</div>
+{{< highlight gradle >}}
+api("it.tuaazienda:tualibreria:1.0-SNAPSHOT") { changing = true }
+{{< /highlight >}}
 
 E poi bisogna dire a Gradle come gestire le dipendenze changing, per semplicità sempre dentro `allprojects`:
 
-<div style="height: 250px; position:relative; margin-bottom: 50px;" class="wp-block-simple-code-block-ace">
-  <pre class="wp-block-simple-code-block-ace" style="position:absolute;top:0;right:0;bottom:0;left:0" data-mode="php" data-theme="monokai" data-fontsize="14" data-lines="Infinity" data-showlines="true" data-copy="false">allprojects {
+{{< highlight gradle >}}
+allprojects {
     configurations.all {
         resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
     }
-}</pre>
-</div>
-
+}
+{{< /highlight >}}
 Fatto questo, a ogni build (o a ogni reimport di build.gradle, se usate IntelliJ) avrete l&#8217;ultima versione della libreria pubblicata su S3, e ovviamente anche i sorgenti, con la possibilità quindi di mettere breakpoints all&#8217;interno del codice della libreria.
 
 Et voila, la prossima volta che devo cambiare l&#8217;indirizzo da cui mandiamo le mail transazionali potrò cambiarlo in un posto solo anziché ottantasette.
