@@ -5,8 +5,8 @@ title = "Hello, Hugo"
 description = ""
 slug = "hello-hugo" 
 tags = []
-categories = [Nerd]
-externalLink = "/2020/07/hello-hugo/"
+categories = ["Nerd"]
+externalLink = ""
 series = []
 +++
 
@@ -21,5 +21,7 @@ Volevo provare uno di quei cosi che generano i siti statici a partire dal markdo
 In effetti, la migrazione dei post del mio vecchio Wordpress è stata a prova di scimmia: ho installato il plugin che li esporta in un formato che piace a Hugo, ho dato due martellate ad alcuni pezzi di contenuto che il mio Wordpress renderizzava in maniera infame, tipo gli embed di Youtube, dato una leggera sistemata al tema che avevo scelto (cosa che è stata molto più facile, almeno per me che conosco HTML e CSS, che orientarmi nel marasma di pulsanti di wp-admin), et voila.
 
 Immagini e embed, soprattutto nei post vecchi, sono probabilmente ancora rotti, ma intanto ho di nuovo un blog, e ho un blog nuovo, con un CMS nuovo.
+
+L'hosting, ovviamente, è gentilmente fornito dalla tecnologia "nuova" più figa in ambito frontend-cose rapide, [Netlify](https://www.netlify.com/).
 
 Insomma, bentornato, [di nuovo](/2018/09/bentornato-raibaz/).
