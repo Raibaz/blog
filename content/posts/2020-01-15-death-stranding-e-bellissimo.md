@@ -22,10 +22,11 @@ I trailer e le notizie usciti durante la lunghissima gestazione di Death Strandi
 
 Insomma, all&#8217;uscita di Death Stranding non me ne fregava alcunché, ero convinto che, al limite, ci avrei giocato con moooolta calma una volta trovata un&#8217;offertona a venti euro o giù di lì, se proprio ne avessi sentito il bisogno.
 
-Poi però le recensioni erano tutte entusiaste, un po&#8217; di miei contatti sui social media che di solito non dicono cazzate ne parlavano molto bene e Mediaworld ce l&#8217;aveva in offerta a quaranta euro e vabbè, diamogli una chance, malissimo che vada lo rivendo su subito.it a venti e ci ho perso poco.<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+Poi però le recensioni erano tutte entusiaste, un po&#8217; di miei contatti sui social media che di solito non dicono cazzate ne parlavano molto bene e Mediaworld ce l&#8217;aveva in offerta a quaranta euro e vabbè, diamogli una chance, malissimo che vada lo rivendo su subito.it a venti e ci ho perso poco.
 
-<div class="wp-block-embed__wrapper">
-</div><figcaption>Ok, storia assurda, ma non c&#8217;è un singolo trailer che ti faccia venir voglia di giocarci.</figcaption></figure> 
+{{< youtube tCI396HyhbQ >}}
+
+Ok, storia assurda, ma non c&#8217;è un singolo trailer che ti faccia venir voglia di giocarci.
 
 E invece avevano tutti ragione: Death Stranding è un gioco della madonna, uno di quelli a cui bisogna per forza aver giocato.
 
@@ -49,9 +50,10 @@ In questo, Death Stranding è la quintessenza del concetto di _gioco_: ti fa far
 
 Ha un sacco di momenti in cui non è un gioco e, in pieno stile Kojima, flirta molto col cinema: le ultime tre-quattro ore sono fondamentalmente una lunghissima cutscene intervallata da svariati credit roll, in cui non si gioca praticamente niente, e la presenza di attori come il già citato Norman Reedus, ma soprattutto Mads Mikkelsen, Nicolas Winding Refn e Guillermo Del Toro non fanno che avallare la tesi che lo vede più vicino a un film che a un videogioco, ma il _core_ di Death Stranding è quanto di più ludico si possa immaginare.
 
-Sopra questo _core_, poi, Kojima dimostra di essere sempre il solito Kojima, finalmente libero dai vincoli di tematica di Metal Gear Solid (anche se la guerra in qualche modo compare sempre) e di Konami: ci sono i personaggi fuori di testa (Higgs è uno dei cattivi più belli dei giochi recenti) c&#8217;è la riflessione sociale sia nella trama, nei due gruppi opposti che vorrebbero l&#8217;America unita o divisa, che nelle meccaniche di gioco, che è multiplayer nonostante Sam sia quasi sempre da solo e rifugga il contatto con le altre persone, ci sono le citazioni, gli inside joke e le rotture della quarta parete e, soprattutto, c&#8217;è un finale che in confronto quello di Sons Of Liberty con i La-Li-Lu-Le-Lo era semplice e lineare.<figure class="wp-block-image size-large">
+Sopra questo _core_, poi, Kojima dimostra di essere sempre il solito Kojima, finalmente libero dai vincoli di tematica di Metal Gear Solid (anche se la guerra in qualche modo compare sempre) e di Konami: ci sono i personaggi fuori di testa (Higgs è uno dei cattivi più belli dei giochi recenti) c&#8217;è la riflessione sociale sia nella trama, nei due gruppi opposti che vorrebbero l&#8217;America unita o divisa, che nelle meccaniche di gioco, che è multiplayer nonostante Sam sia quasi sempre da solo e rifugga il contatto con le altre persone, ci sono le citazioni, gli inside joke e le rotture della quarta parete e, soprattutto, c&#8217;è un finale che in confronto quello di Sons Of Liberty con i La-Li-Lu-Le-Lo era semplice e lineare.
 
-<img src="https://www.raibaz.it/wp-content/uploads/2020/01/DEATH_STRANDING_20191125223901-1024x576.jpg" alt="" class="wp-image-338" srcset="https://www.raibaz.it/wp-content/uploads/2020/01/DEATH_STRANDING_20191125223901-1024x576.jpg 1024w, https://www.raibaz.it/wp-content/uploads/2020/01/DEATH_STRANDING_20191125223901-300x169.jpg 300w, https://www.raibaz.it/wp-content/uploads/2020/01/DEATH_STRANDING_20191125223901-768x432.jpg 768w, https://www.raibaz.it/wp-content/uploads/2020/01/DEATH_STRANDING_20191125223901.jpg 1280w" sizes="(max-width: 1024px) 100vw, 1024px" /> <figcaption>A proposito di citazioni, se questa spiaggia non vi fa pensare a The End Of Evangelion forse avete un problema.</figcaption></figure> 
+![pic](https://www.raibaz.it/wp-content/uploads/2020/01/DEATH_STRANDING_20191125223901-1024x576.jpg)
+A proposito di citazioni, se questa spiaggia non vi fa pensare a The End Of Evangelion forse avete un problema.
 
 In pieno stile Kojima, quindi, Death Stranding mischia il gioco con il cinema, il cazzeggio con la riflessione profonda e il divertimento con la noia, dosando alla perfezione tutti gli ingredienti e con il suo solito gusto per i dettagli: in pieno stile Kojima, Death Stranding è uno di quei giochi a cui tutti gli appassionati del medium videogioco dovrebbero giocare, perché come i suoi giochi più riusciti sposta un po&#8217; più in là l&#8217;asticella di &#8220;che cos&#8217;è un videogioco&#8221;.
 

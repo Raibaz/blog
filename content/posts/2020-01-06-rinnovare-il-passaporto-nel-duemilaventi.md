@@ -28,9 +28,9 @@ Vabbè, dici, sopravviverò pure a questo trauma (lasciamo stare che dovrebbe es
 
 Macchè.
 
-Riempi tutto il form dell&#8217;home banking con il numero di conto, l&#8217;intestazione, la causale, l&#8217;importo, giusti giusti come dicono le istruzioni, e&#8230;&#8221;Spiacenti, questo conto corrente non è abilitato ai pagamenti online&#8221;.<figure class="wp-block-image size-large">
+Riempi tutto il form dell&#8217;home banking con il numero di conto, l&#8217;intestazione, la causale, l&#8217;importo, giusti giusti come dicono le istruzioni, e&#8230;&#8221;Spiacenti, questo conto corrente non è abilitato ai pagamenti online&#8221;.
 
-<img src="https://www.raibaz.it/wp-content/uploads/2020/01/Rage-1024x576.jpg" alt="" class="wp-image-333" srcset="https://www.raibaz.it/wp-content/uploads/2020/01/Rage-1024x576.jpg 1024w, https://www.raibaz.it/wp-content/uploads/2020/01/Rage-300x169.jpg 300w, https://www.raibaz.it/wp-content/uploads/2020/01/Rage-768x432.jpg 768w, https://www.raibaz.it/wp-content/uploads/2020/01/Rage.jpg 1318w" sizes="(max-width: 1024px) 100vw, 1024px" /> </figure> 
+![pic](https://www.raibaz.it/wp-content/uploads/2020/01/Rage-1024x576.jpg)
 
 Per poter andare al commissariato a chiedere il passaporto non basta andare prima dal tabaccaio, devi anche andare in posta, fare _un&#8217;altra_ coda e pagare un altro bollettino, nella vana speranza che all&#8217;ufficio postale funzioni lo stracazzo di POS.
 
