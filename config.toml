@@ -3,3 +3,4 @@ languageCode = "it-it"
 title = "Raibaz."
 theme = "coder"
 enableEmoji = true
+googleAnalytics = "UA-1866848-13"
