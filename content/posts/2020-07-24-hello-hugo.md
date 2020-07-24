@@ -3,7 +3,7 @@ title: Hello, Hugo
 author: Raibaz
 type: post
 date: 2020-07-24T22:58:52+00:00
-url: /2020/07/hello-hugo
+url: /2020/07/hello-hugo/
 categories:
   - Nerd
 
