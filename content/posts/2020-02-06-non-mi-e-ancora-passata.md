@@ -16,11 +16,8 @@ La cinematografia clamorosa, i dettagli che ti fanno capire che Esmail aveva tut
 
 (No spoiler, non temete)
 
-<blockquote class="wp-block-quote">
-  <p>
-    This whole time I thought changing the world was something you did. An act you performed, something you fought for, I don’t know if that’s true anymore, or if changing the world was just about being here. By showing up, no matter how many times we get told we don’t belong. By staying true even when we’re shamed into being false. By believing in ourselves, even when we are told we’re too different. And if we all held onto that. If we refused to budge and fall in line. If we stood our ground for long enough, just maybe, the world can’t help but change around us. Even though we’ll be gone, its like Mr Robot said we’ll always be a part of Elliot Alderson. And we’ll be the best part, because we’re the part that always showed up. We’re the part that stayed. We’re the part that changed him. And who wouldn’t be proud of that?
-  </p>
-</blockquote>
+> This whole time I thought changing the world was something you did. An act you performed, something you fought for, I don’t know if that’s true anymore, or if changing the world was just about being here. By showing up, no matter how many times we get told we don’t belong. By staying true even when we’re shamed into being false. By believing in ourselves, even when we are told we’re too different. And if we all held onto that. If we refused to budge and fall in line. If we stood our ground for long enough, just maybe, the world can’t help but change around us. Even though we’ll be gone, its like Mr Robot said we’ll always be a part of Elliot Alderson. And we’ll be the best part, because we’re the part that always showed up. We’re the part that stayed. We’re the part that changed him. And who wouldn’t be proud of that?
+
 ![pic](https://www.raibaz.it/wp-content/uploads/2020/02/image-1024x569.png)
 Non c&#8217;è nessun mondo possibile in cui, con il One World Trade Center così evidente in lontananza, le due righe verticali dell&#8217;intelaiatura della finestra sono lì per caso.
 
