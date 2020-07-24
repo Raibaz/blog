@@ -1,13 +1,15 @@
----
-title: Hello, Hugo
-author: Raibaz
-type: post
-date: 2020-07-24T22:58:52+00:00
-url: /2020/07/hello-hugo/
-categories:
-  - Nerd
++++ 
+draft = false
+date = 2020-07-24T23:10:02+02:00
+title = "Hello, Hugo"
+description = ""
+slug = "hello-hugo" 
+tags = []
+categories = [Nerd]
+externalLink = "/2020/07/hello-hugo/"
+series = []
++++
 
----
 Sono già passati quasi due anni da quando ho ripreso in maniera semistabile a scrivere in un posto _mio_, due anni che se avete prestato attenzione alle mie vicende personali ne sono durati almeno dieci.
 
 Ma non è questo il tema di oggi: il tema di oggi è che siccome sono passati quasi due anni, mi è arrivata la mail che dice che dominio e hosting stanno per scadere e vanno rinnovati, e di spendere una quarantina di soldi all'anno per un hosting Wordpress, nel 2020, non mi andava.
