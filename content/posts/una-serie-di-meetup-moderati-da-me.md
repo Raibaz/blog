@@ -30,7 +30,7 @@ Il tema, che è un tema che mi sta molto a cuore, è l'insieme di skill che rend
 
 Si parlerà di teamwork, di emozioni e di best practices, un martedì sera ogni tanto, e la cosa bella è che, dovendo scegliere io gli speaker, ho allestito un parterre di persone che ritengo fantastiche e che io stesso non vedo l'ora di sentir parlare.
 
-Si comincia subito domani, martedì 29 settembre, con una tripletta di personaggi di riguardo: c'è [Alessio](https://dottorblaster.it/), che oltre a essere uno degli sviluppatori migliori che conosca è anche una persona magnifica, c'è Matteo Collina, che se hai mai avuto a che fare con nodejs conosci sicuramente e probabilmente conosci anche senza aver avuto a che fare con node, e c'è Leonardo, che oltre ad aver scritto [Perfume.js](https://zizzamia.github.io/perfume/) di mestiere fa l'Engineering Lead in un posto figo come Coinbase.
+Si comincia subito, domani martedì 29 settembre, con una tripletta di personaggi di riguardo: c'è [Alessio](https://dottorblaster.it/), che oltre a essere uno degli sviluppatori migliori che conosca è anche una persona magnifica, c'è Matteo Collina, che se hai mai avuto a che fare con nodejs conosci sicuramente e probabilmente conosci anche senza aver avuto a che fare con node, e c'è Leonardo, che oltre ad aver scritto [Perfume.js](https://zizzamia.github.io/perfume/) di mestiere fa l'Engineering Lead in un posto figo come Coinbase.
 
 [Qui](https://community.codemotion.com/codemotion-italy/meetups/meetup-online-edition-contribuire-a-progetti-open-source-rende-sviluppatori-migliori) c'è il link per iscriversi e partecipare in diretta, godendosi anche i momenti di interazione che io e il team di Codemotion abbiamo pensato per i partecipanti.
 
