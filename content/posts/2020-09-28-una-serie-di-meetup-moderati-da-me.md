@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 date = 2020-09-28T09:53:14+02:00
 title = "Una serie di meetup moderati da me"
 description = ""
