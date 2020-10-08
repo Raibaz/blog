@@ -1,3 +1,0 @@
-# Ads.txt https://raibaz.it/ads.txt
-
-google.com, pub-0134046674271031, DIRECT, f08c47fec0942fa0
