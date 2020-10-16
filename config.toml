@@ -7,3 +7,6 @@ googleAnalytics = "UA-1866848-13"
 
 [params]
   images = ["images/main-image.png"]
+
+[markup.goldmark.renderer]
+  unsafe = true
