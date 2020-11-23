@@ -38,4 +38,4 @@ Ora, fondamentalmente è un'inculata: è un progetto usato da un sacco di gente,
 
 Quindi, se siete lettori attenti, sapete già cosa gli ho risposto: da una dozzina di giorni sono, di fatto, il maintainer principale del framework standard _de facto_ di mocking per Kotlin.
 
-Ora, se per caso siete arrivati a leggere fino qua e avete del tempo libero che volete devolvere a una comunità, quella open source, che tanto ha dato a tutti noi, e a un personaggio, me stesso medesimo, altrettanto caro a tutti noi e a me in particolare, e magari conoscete un po' di Kotlin, oppure no e volete impararlo, oppure no ma vi va di darmi una mano, a me un co-maintainer farebbe davvero comodo :)
+Ora, se per caso siete arrivati a leggere fino qua e avete del tempo libero che volete devolvere a una comunità, quella open source, che tanto ha dato a tutti noi, e a un personaggio, me stesso medesimo, altrettanto caro a tutti noi e a me in particolare, e magari conoscete un po' di Kotlin, oppure no e volete impararlo, oppure no ma vi va di darmi una mano, a me un co-maintainer farebbe davvero comodo, ecco.
