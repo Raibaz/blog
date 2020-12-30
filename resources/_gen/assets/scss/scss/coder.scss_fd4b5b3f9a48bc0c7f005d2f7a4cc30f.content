@@ -319,6 +319,10 @@ img.emoji {
       @media only screen and (max-width: 768px) {
         .centered .error h2 {
           font-size: 2.8rem; } }
+img[src$='#center'] {
+  display: block;
+  margin: 0 auto; }
+
 .navigation {
   height: 6.0rem;
   width: 100%; }
