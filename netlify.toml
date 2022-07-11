@@ -22,3 +22,8 @@
   from = "/feed"
   to = "/index.xml"
   status = 200
+  
+[[redirects]]
+  from = "/google94f4da3dd52cb114.html"
+  to = "/images/google94f4da3dd52cb114.html"
+  status = 200
