@@ -1,2 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Monzo on Raibaz.</title><link>http://example.org/tags/monzo/</link><description>Recent content in Monzo on Raibaz.</description><generator>Hugo -- gohugo.io</generator><language>it-it</language><lastBuildDate>Thu, 20 Sep 2018 07:30:51 +0000</lastBuildDate><atom:link href="http://example.org/tags/monzo/index.xml" rel="self" type="application/rss+xml"/><item><title>Cose da nerd: tracciare automaticamente le spese con Monzo e IFTTT</title><link>http://example.org/2018/09/cose-da-nerd-tracciare-automaticamente-le-spese-con-monzo-e-ifttt/</link><pubDate>Thu, 20 Sep 2018 07:30:51 +0000</pubDate><guid>http://example.org/2018/09/cose-da-nerd-tracciare-automaticamente-le-spese-con-monzo-e-ifttt/</guid><description>Insomma che come si diceva, quissù tutto solo ho una buona quantità di tempo libero, e la fase di adattamento alla vita in questa nazione include, tra le altre cose, la necessità di tracciare in modo dettagliato quanto spendo, per capire, a tendere, quanta birra posso bere, quanto spesso posso mangiare fuori, e quante cazzate posso comprarmi per impiegare il tempo suddetto.
-Ora, cosa fa uno sviluppatore quando vuole sapere qualcosa in dettaglio?</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Monzo on Raibaz.</title>
+    <link>https://www.raibaz.it/tags/monzo/</link>
+    <description>Recent content in Monzo on Raibaz.</description>
+    <generator>Hugo</generator>
+    <language>it-it</language>
+    <lastBuildDate>Thu, 20 Sep 2018 07:30:51 +0000</lastBuildDate>
+    <atom:link href="https://www.raibaz.it/tags/monzo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cose da nerd: tracciare automaticamente le spese con Monzo e IFTTT</title>
+      <link>https://www.raibaz.it/2018/09/cose-da-nerd-tracciare-automaticamente-le-spese-con-monzo-e-ifttt/</link>
+      <pubDate>Thu, 20 Sep 2018 07:30:51 +0000</pubDate>
+      <guid>https://www.raibaz.it/2018/09/cose-da-nerd-tracciare-automaticamente-le-spese-con-monzo-e-ifttt/</guid>
+      <description>&lt;p&gt;Insomma che come si diceva, quissù tutto solo ho una buona quantità di tempo libero, e la fase di adattamento alla vita in questa nazione include, tra le altre cose, la necessità di tracciare in modo dettagliato quanto spendo, per capire, a tendere, quanta birra posso bere, quanto spesso posso mangiare fuori, e quante cazzate posso comprarmi per impiegare il tempo suddetto.&lt;/p&gt;&#xA;&lt;p&gt;Ora, cosa fa uno sviluppatore quando vuole sapere qualcosa in dettaglio? Mette in piedi un sistema per raccogliere dati automaticamente, &lt;em&gt;ça va sans dire.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

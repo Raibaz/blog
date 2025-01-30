@@ -1,2 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>serie on Raibaz.</title><link>http://example.org/tags/serie/</link><description>Recent content in serie on Raibaz.</description><generator>Hugo -- gohugo.io</generator><language>it-it</language><lastBuildDate>Thu, 18 Apr 2019 07:02:41 +0000</lastBuildDate><atom:link href="http://example.org/tags/serie/index.xml" rel="self" type="application/rss+xml"/><item><title>Russian Doll: malattia mentale a strati</title><link>http://example.org/2019/04/russian-doll-malattia-mentale-a-strati/</link><pubDate>Thu, 18 Apr 2019 07:02:41 +0000</pubDate><guid>http://example.org/2019/04/russian-doll-malattia-mentale-a-strati/</guid><description>Non so se è per via di esperienze personali o se davvero è così, ma se dovessi pensare a un grande tema degli ultimi anni, forse addirittura il tema portante degli anni ’10 o almeno del periodo a cavallo tra questa decade e la prossima, credo avrei ben pochi dubbi nell’indicare la salute mentale.
-Sarà per via di quel fenomeno per cui quando prendi un cane ti rendi conto di quanta gente attorno a te abbia un cane, ma davvero sembra che non ci sia nessun tipo di conversazione o prodotto culturale che possa esimersi dal fare i conti con i dilemmi e i problemi che ogni appartenente alla mia generazione e a quelle successive sembra portarsi dentro.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Serie on Raibaz.</title>
+    <link>https://www.raibaz.it/tags/serie/</link>
+    <description>Recent content in Serie on Raibaz.</description>
+    <generator>Hugo</generator>
+    <language>it-it</language>
+    <lastBuildDate>Thu, 18 Apr 2019 07:02:41 +0000</lastBuildDate>
+    <atom:link href="https://www.raibaz.it/tags/serie/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Russian Doll: malattia mentale a strati</title>
+      <link>https://www.raibaz.it/2019/04/russian-doll-malattia-mentale-a-strati/</link>
+      <pubDate>Thu, 18 Apr 2019 07:02:41 +0000</pubDate>
+      <guid>https://www.raibaz.it/2019/04/russian-doll-malattia-mentale-a-strati/</guid>
+      <description>&lt;p&gt;Non so se è per via di esperienze personali o se davvero è così, ma se dovessi pensare a un grande tema degli ultimi anni, forse addirittura il tema portante degli anni ’10 o almeno del periodo a cavallo tra questa decade e la prossima, credo avrei ben pochi dubbi nell’indicare la salute mentale.&lt;/p&gt;&#xA;&lt;p&gt;Sarà per via di quel fenomeno per cui quando prendi un cane ti rendi conto di quanta gente attorno a te abbia un cane, ma davvero sembra che non ci sia nessun tipo di conversazione o prodotto culturale che possa esimersi dal fare i conti con i dilemmi e i problemi che ogni appartenente alla mia generazione e a quelle successive sembra portarsi dentro.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
