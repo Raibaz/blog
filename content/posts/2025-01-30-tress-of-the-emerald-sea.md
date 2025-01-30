@@ -20,5 +20,11 @@ Nel marasma di autori di cui l'Internet parla benissimo c'è pure Brandon Sander
 
 Oltre al fatto che ne parlano bene in tanti, c'è il dettaglio non da poco che tutti, quarta di copertina compresa, lo descrivono come molto simile a "The Princess Bride", che ho scoperto in età adulta un paio d'anni fa ed è diventato immediatamente uno dei miei romanzi preferiti di sempre (a proposito, lo so che si dice di quasi tutti, ma il libro è molto meglio del film); lo stesso Sanderson, nella postfazione, dice che una delle premesse da cui è partito nello scriverlo è "What if Buttercup went to rescue Westley?"
 
-E infatti il clima di grande avventura ma raccontata in maniera ironica e scanzonata è proprio quello
+E infatti il clima di grande avventura ma raccontata in maniera ironica e scanzonata è proprio quello della storia di Westley e Buttercup, ma con in più anche i pirati, un sistema magico molto articolato e ben descritto e una voce narrante che, a quanto mi pare di capire cercando sull'Internet senza spoilerarmi troppo, è un personaggio ricorrente di questo universo narrativo.
+
+Assolutamente stratosferico nel primo terzo e nell'ultimo, si ammoscia leggerissimamente a metà, ma niente di grave, è comunque un signor romanzo e, soprattutto, mi ha fatto venire voglia di leggere altro dello stesso autore, o almeno dello stesso universo.
+
+Insomma, gateway drug perfetta per Brandon Sanderson e ottimo partecipante nella lista di libri che ho deciso di leggere quest'anno.
+
+Cinque stelline su cinque.
 
