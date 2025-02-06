@@ -1,7 +1,209 @@
-<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=content-language content="en"><meta name=description content="Insomma che come si diceva, quissù tutto solo ho una buona quantità di tempo libero, e la fase di adattamento alla vita in questa nazione include, tra le altre cose, la necessità di tracciare in modo dettagliato quanto spendo, per capire, a tendere, quanta birra posso bere, quanto spesso posso mangiare fuori, e quante cazzate posso comprarmi per impiegare il tempo suddetto.
-Ora, cosa fa uno sviluppatore quando vuole sapere qualcosa in dettaglio?"><meta name=keywords content><meta name=twitter:card content="summary"><meta name=twitter:title content="Cose da nerd: tracciare automaticamente le spese con Monzo e IFTTT"><meta name=twitter:description content="Insomma che come si diceva, quissù tutto solo ho una buona quantità di tempo libero, e la fase di adattamento alla vita in questa nazione include, tra le altre cose, la necessità di tracciare in modo dettagliato quanto spendo, per capire, a tendere, quanta birra posso bere, quanto spesso posso mangiare fuori, e quante cazzate posso comprarmi per impiegare il tempo suddetto.
-Ora, cosa fa uno sviluppatore quando vuole sapere qualcosa in dettaglio?"><meta property="og:title" content="Cose da nerd: tracciare automaticamente le spese con Monzo e IFTTT"><meta property="og:description" content="Insomma che come si diceva, quissù tutto solo ho una buona quantità di tempo libero, e la fase di adattamento alla vita in questa nazione include, tra le altre cose, la necessità di tracciare in modo dettagliato quanto spendo, per capire, a tendere, quanta birra posso bere, quanto spesso posso mangiare fuori, e quante cazzate posso comprarmi per impiegare il tempo suddetto.
-Ora, cosa fa uno sviluppatore quando vuole sapere qualcosa in dettaglio?"><meta property="og:type" content="article"><meta property="og:url" content="http://example.org/2018/09/cose-da-nerd-tracciare-automaticamente-le-spese-con-monzo-e-ifttt/"><meta property="article:published_time" content="2018-09-20T07:30:51+00:00"><meta property="article:modified_time" content="2018-09-20T07:30:51+00:00"><base href=http://example.org/2018/09/cose-da-nerd-tracciare-automaticamente-le-spese-con-monzo-e-ifttt/><title>Cose da nerd: tracciare automaticamente le spese con Monzo e IFTTT · Raibaz.</title><link rel=canonical href=http://example.org/2018/09/cose-da-nerd-tracciare-automaticamente-le-spese-con-monzo-e-ifttt/><link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel=stylesheet><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.13.0/css/all.css integrity=sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V crossorigin=anonymous><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin=anonymous><link rel=stylesheet href=/css/coder.min.31a395781f1caab4e90f89f7e5d0f0195b7c1944686a54267ed15c08a820827b.css integrity="sha256-MaOVeB8cqrTpD4n35dDwGVt8GURoalQmftFcCKgggns=" crossorigin=anonymous media=screen><link rel=icon type=image/png href=http://example.org/images/favicon-32x32.png sizes=32x32><link rel=icon type=image/png href=http://example.org/images/favicon-16x16.png sizes=16x16><meta name=generator content="Hugo 0.74.1"></head><body class=colorscheme-light><main class=wrapper><nav class=navigation><section class=container><a class=navigation-title href=/>Raibaz.</a></section></nav><div class=content><section class="container page"><article><header><h1>Cose da nerd: tracciare automaticamente le spese con Monzo e IFTTT</h1></header><p>Insomma che come si diceva, quissù tutto solo ho una buona quantità di tempo libero, e la fase di adattamento alla vita in questa nazione include, tra le altre cose, la necessità di tracciare in modo dettagliato quanto spendo, per capire, a tendere, quanta birra posso bere, quanto spesso posso mangiare fuori, e quante cazzate posso comprarmi per impiegare il tempo suddetto.</p><p>Ora, cosa fa uno sviluppatore quando vuole sapere qualcosa in dettaglio? Mette in piedi un sistema per raccogliere dati automaticamente, <em>ça va sans dire.</em></p><p>Fortunatamente, sembra che il bisogno di tracciare dettagliatamente le spese sia condiviso, almeno da questo lato della manica, visto che è uno dei selling point principali di <a href=https://monzo.com/>Monzo</a>, una startup che ha come claim un moderatissimo e per niente pretenzioso “The bank of the future”.</p><p>Su suggerimento della validissima gente di <a href=http://webdeldn.rocks>WEBdeLDN</a> apro un account in tempo zero dall’app, e dopo un paio di giorni ho già la mia nuova Mastercard color corallo:</p><p>L’app fa già un ottimo lavoro per noi nerd del tracciamento delle spese, mandandoti una push notification per ogni addebito (che non è sempre istantaneo, perché quei maledetti di TFL, l’azienda dei trasporti di Londra, ti addebitano un po’ quando vogliono) e dividendo automagicamente le spese in trasporti, cibo, generi di prima necessità, etc., ma ovviamente non è abbastanza.</p><p>Si dà il caso che avessi già, ovviamente, un documento su Google Sheets con un sacco di formule e grafici che teneva traccia di tutte le spese tipo luce-gas-ADSL-macchina-cibo-blablabla, frutto di anni di esperienza, aggiustamenti e abitudine a tracciare a mano ogni spesa rilevante, al quale ormai mi sono affezionato e del quale faccio fatica a fare a meno: e se ci fosse un modo di salvare le spese che Monzo traccia già nello stesso documento, magari senza lo sbattimento di doverle scrivere a manina ogni volta?</p><p><a href=https://ifttt.com/>IFTTT</a> to the rescue!</p><p>La banca del futuro, infatti, presta fede al proprio claim offrendo una serie sufficientemente ampia di integrazioni col magico servizio di cui ogni nerd appassionato di automazione non può fare a meno:</p><p>“Ok, quindi posso loggare tutte le spese che faccio con la mia Mastercard color corallo su un Google sheet, fatto, giusto?”</p><p>Ni.</p><p></p><p>I più attenti di voi non faranno fatica a notare che il formato di questa tabella è un cesso a pedali:</p><ul><li>La data è in un formato impossibile da gestire</li><li>Le spese sono mischiate anzichè essere raggruppate in qualche modo, chessò, per data, per settimana, per mese, per categoria, per salcazzo</li><li>Quel £ prima degli importi rende impossibile fare le somme</li></ul><p>Insomma, ci vuole un po’ di Google Sheet Kung Fu.</p><p>“Prendi la parte prima di “at” nella cella con data e ora e interpretala, appunto, come una data, usando il primo gennaio del 1970 come default se c’è qualche errore” –> “9/10/2018”, ecco, iniziamo a ragionare.</p><p>“Togli quel cazzo di £ dalla cella con l’importo e sommaci zero, giusto per chiarire che è un valore numerico”</p><p>Ecco quindi che ci troviamo con una tabella come si deve, con gli importi sommabili e raggruppabili per data, e con un paio di colpi di <a href="https://support.google.com/docs/answer/3238496?hl=en">SUMIFS</a>, voila! Abbiamo la somma di quanto ho speso di metropolitana nel mese di settembre, pronta per essere inserita nel foglio riassuntivo che ho imparato ad apprezzare.</p><p>“Aspetta, ma nel foglio riassuntivo devi copiarcela a mano? Monzo scrive nel suo Google Sheet, non nel tuo.” </p><p>Ma certo che no, suvvia.</p><p>Ecco fatto: il foglio delle spese a cui sei abituato si aggiorna automagicamente ogni volta che usi la carta di Monzo per pagare la metro.</p><p>Problema risolto, tempo libero impiegato, cose imparate.</p></article></section></div><footer class=footer><section class=container>©
-2020
-·
-Powered by <a href=https://gohugo.io/>Hugo</a> & <a href=https://github.com/luizdepra/hugo-coder/>Coder</a>.</section></footer></main></body></html>
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
+    
+
+    
+    <meta name="description" content="Insomma che come si diceva, quissù tutto solo ho una buona quantità di tempo libero, e la fase di adattamento alla vita in questa nazione include, tra le altre cose, la necessità di tracciare in modo dettagliato quanto spendo, per capire, a tendere, quanta birra posso bere, quanto spesso posso mangiare fuori, e quante cazzate posso comprarmi per impiegare il tempo suddetto.
+Ora, cosa fa uno sviluppatore quando vuole sapere qualcosa in dettaglio? Mette in piedi un sistema per raccogliere dati automaticamente, ça va sans dire.">
+    <meta name="keywords" content="">
+
+    
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://www.raibaz.it/images/main-image.png">
+  <meta name="twitter:title" content="Cose da nerd: tracciare automaticamente le spese con Monzo e IFTTT">
+  <meta name="twitter:description" content="Insomma che come si diceva, quissù tutto solo ho una buona quantità di tempo libero, e la fase di adattamento alla vita in questa nazione include, tra le altre cose, la necessità di tracciare in modo dettagliato quanto spendo, per capire, a tendere, quanta birra posso bere, quanto spesso posso mangiare fuori, e quante cazzate posso comprarmi per impiegare il tempo suddetto.
+Ora, cosa fa uno sviluppatore quando vuole sapere qualcosa in dettaglio? Mette in piedi un sistema per raccogliere dati automaticamente, ça va sans dire.">
+
+    <meta property="og:url" content="https://www.raibaz.it/2018/09/cose-da-nerd-tracciare-automaticamente-le-spese-con-monzo-e-ifttt/">
+  <meta property="og:site_name" content="Raibaz.">
+  <meta property="og:title" content="Cose da nerd: tracciare automaticamente le spese con Monzo e IFTTT">
+  <meta property="og:description" content="Insomma che come si diceva, quissù tutto solo ho una buona quantità di tempo libero, e la fase di adattamento alla vita in questa nazione include, tra le altre cose, la necessità di tracciare in modo dettagliato quanto spendo, per capire, a tendere, quanta birra posso bere, quanto spesso posso mangiare fuori, e quante cazzate posso comprarmi per impiegare il tempo suddetto.
+Ora, cosa fa uno sviluppatore quando vuole sapere qualcosa in dettaglio? Mette in piedi un sistema per raccogliere dati automaticamente, ça va sans dire.">
+  <meta property="og:locale" content="it_it">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2018-09-20T07:30:51+00:00">
+    <meta property="article:modified_time" content="2018-09-20T07:30:51+00:00">
+    <meta property="article:tag" content="Google Sheets">
+    <meta property="article:tag" content="Monzo">
+    <meta property="article:tag" content="Soldi">
+    <meta property="og:image" content="https://www.raibaz.it/images/main-image.png">
+
+
+    <title>
+  Cose da nerd: tracciare automaticamente le spese con Monzo e IFTTT · Raibaz.
+</title>
+
+    
+      <link rel="canonical" href="https://www.raibaz.it/2018/09/cose-da-nerd-tracciare-automaticamente-le-spese-con-monzo-e-ifttt/">
+    
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.1.7" as="font" type="font/woff2" crossorigin>
+
+    
+      
+      
+      <link rel="stylesheet" href="/css/coder.min.css" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+    
+
+    <meta name="generator" content="Hugo 0.142.0">
+  </head>
+
+  
+  
+  <body class="colorscheme-light"
+        onload=""
+  >
+    
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      Raibaz.
+    </a>    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      
+      <h1>Cose da nerd: tracciare automaticamente le spese con Monzo e IFTTT</h1>
+    </header>
+    <p>Insomma che come si diceva, quissù tutto solo ho una buona quantità di tempo libero, e la fase di adattamento alla vita in questa nazione include, tra le altre cose, la necessità di tracciare in modo dettagliato quanto spendo, per capire, a tendere, quanta birra posso bere, quanto spesso posso mangiare fuori, e quante cazzate posso comprarmi per impiegare il tempo suddetto.</p>
+<p>Ora, cosa fa uno sviluppatore quando vuole sapere qualcosa in dettaglio? Mette in piedi un sistema per raccogliere dati automaticamente, <em>ça va sans dire.</em></p>
+<p>Fortunatamente, sembra che il bisogno di tracciare dettagliatamente le spese sia condiviso, almeno da questo lato della manica, visto che è uno dei selling point principali di <a href="https://monzo.com/">Monzo</a>, una startup che ha come claim un moderatissimo e per niente pretenzioso “The bank of the future”.</p>
+<p>Su suggerimento della validissima gente di <a href="http://webdeldn.rocks">WEBdeLDN</a> apro un account in tempo zero dall’app, e dopo un paio di giorni ho già la mia nuova Mastercard color corallo:</p>
+<div class="wp-block-image">
+  <figure class="aligncenter"><img src="https://raibaz.it/wp-content/uploads/2018/09/Schermata-2018-09-17-alle-22.09.37.png" alt="" class="wp-image-33" srcset="https://www.raibaz.it/wp-content/uploads/2018/09/Schermata-2018-09-17-alle-22.09.37.png 656w, https://www.raibaz.it/wp-content/uploads/2018/09/Schermata-2018-09-17-alle-22.09.37-300x192.png 300w" sizes="(max-width: 656px) 100vw, 656px" /></figure>
+</div>
+<p>L’app fa già un ottimo lavoro per noi nerd del tracciamento delle spese, mandandoti una push notification per ogni addebito (che non è sempre istantaneo, perché quei maledetti di TFL, l’azienda dei trasporti di Londra, ti addebitano un po’ quando vogliono) e dividendo automagicamente le spese in trasporti, cibo, generi di prima necessità, etc., ma ovviamente non è abbastanza.</p>
+<p>Si dà il caso che avessi già, ovviamente, un documento su Google Sheets con un sacco di formule e grafici che teneva traccia di tutte le spese tipo luce-gas-ADSL-macchina-cibo-blablabla, frutto di anni di esperienza, aggiustamenti e abitudine a tracciare a mano ogni spesa rilevante, al quale ormai mi sono affezionato e del quale faccio fatica a fare a meno: e se ci fosse un modo di salvare le spese che Monzo traccia già nello stesso documento, magari senza lo sbattimento di doverle scrivere a manina ogni volta?</p>
+<p><a href="https://ifttt.com/">IFTTT</a> to the rescue!</p>
+<p>La banca del futuro, infatti, presta fede al proprio claim offrendo una serie sufficientemente ampia di integrazioni col magico servizio di cui ogni nerd appassionato di automazione non può fare a meno:</p>
+<div class="wp-block-image">
+  <figure class="aligncenter"><img src="https://raibaz.it/wp-content/uploads/2018/09/Schermata-2018-09-17-alle-22.18.39.png" alt="" class="wp-image-34" srcset="https://www.raibaz.it/wp-content/uploads/2018/09/Schermata-2018-09-17-alle-22.18.39.png 808w, https://www.raibaz.it/wp-content/uploads/2018/09/Schermata-2018-09-17-alle-22.18.39-235x300.png 235w, https://www.raibaz.it/wp-content/uploads/2018/09/Schermata-2018-09-17-alle-22.18.39-768x981.png 768w, https://www.raibaz.it/wp-content/uploads/2018/09/Schermata-2018-09-17-alle-22.18.39-802x1024.png 802w" sizes="(max-width: 808px) 100vw, 808px" /></figure>
+</div>
+<p>“Ok, quindi posso loggare tutte le spese che faccio con la mia Mastercard color corallo su un Google sheet, fatto, giusto?”</p>
+<p>Ni.<figure class="wp-block-image"></p>
+<p><img src="https://raibaz.it/wp-content/uploads/2018/09/Schermata-2018-09-17-alle-22.20.26.png" alt="" class="wp-image-35" srcset="https://www.raibaz.it/wp-content/uploads/2018/09/Schermata-2018-09-17-alle-22.20.26.png 1310w, https://www.raibaz.it/wp-content/uploads/2018/09/Schermata-2018-09-17-alle-22.20.26-300x102.png 300w, https://www.raibaz.it/wp-content/uploads/2018/09/Schermata-2018-09-17-alle-22.20.26-768x261.png 768w, https://www.raibaz.it/wp-content/uploads/2018/09/Schermata-2018-09-17-alle-22.20.26-1024x349.png 1024w" sizes="(max-width: 1310px) 100vw, 1310px" /> </figure></p>
+<p>I più attenti di voi non faranno fatica a notare che il formato di questa tabella è un cesso a pedali:</p>
+<ul>
+<li>La data è in un formato impossibile da gestire</li>
+<li>Le spese sono mischiate anzichè essere raggruppate in qualche modo, chessò, per data, per settimana, per mese, per categoria, per salcazzo</li>
+<li>Quel £ prima degli importi rende impossibile fare le somme</li>
+</ul>
+<p>Insomma, ci vuole un po’ di Google Sheet Kung Fu.</p>
+<p style="font-family: monospace">
+  =IFERROR(DATEVALUE(LEFT(Sheet1!A2,FIND(&#8221; at&#8221;,Sheet1!A2))), &#8220;01/01/1970&#8221;)
+</p>
+<p>“Prendi la parte prima di “at” nella cella con data e ora e interpretala, appunto, come una data, usando il primo gennaio del 1970 come default se c’è qualche errore” –&gt; “9/10/2018”, ecco, iniziamo a ragionare.</p>
+<p style="font-family: monospace">
+  =SUBSTITUTE(Sheet1!E2, &#8220;£&#8221;, &#8220;&#8221;) + 0
+</p>
+<p>“Togli quel cazzo di £ dalla cella con l’importo e sommaci zero, giusto per chiarire che è un valore numerico”</p>
+<p>Ecco quindi che ci troviamo con una tabella come si deve, con gli importi sommabili e raggruppabili per data, e con un paio di colpi di <a href="https://support.google.com/docs/answer/3238496?hl=en">SUMIFS</a>, voila! Abbiamo la somma di quanto ho speso di metropolitana nel mese di settembre, pronta per essere inserita nel foglio riassuntivo che ho imparato ad apprezzare.</p>
+<p>“Aspetta, ma nel foglio riassuntivo devi copiarcela a mano? Monzo scrive nel suo Google Sheet, non nel tuo.” </p>
+<p>Ma certo che no, suvvia.</p>
+<p style="font-family: monospace">
+  =IMPORTRANGE(&#8220;<url del google sheet dove scrive monzo e dove hai messo tutte le formule di cui sopra>&#8221;, &#8220;<cella dove hai salvato la somma delle spese di metro per il mese che ti interessa>&#8221;)
+</p>
+<p>Ecco fatto: il foglio delle spese a cui sei abituato si aggiorna automagicamente ogni volta che usi la carta di Monzo per pagare la metro.</p>
+<p>Problema risolto, tempo libero impiegato, cose imparate.</p>
+
+  </article>
+</section>
+
+  
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      <p>Vuoi fomentare la mia passione per la lettura? Comprami un regalo dalla mia enorme wishlist <a href="https://www.amazon.it/hz/wishlist/ls/E9BMTJJ7ROU6?ref_=wl_share">qui</a>.</p>
+    </section>
+    <section class="webring container">
+      <webring-banner>
+        <p>Member of <a href="https://retronerds.netlify.app/">Retronerds</a></p>
+        <a href="https://retronerds.netlify.app/prev">Previous</a>
+        <a href="https://retronerds.netlify.app/random">Random</a>
+        <a href="https://retronerds.netlify.app/next">Next</a>
+      </webring-banner>
+      <script async src="https://retronerds.netlify.app/embed.js" charset="utf-8"></script>
+    </section>
+    <section class="container">
+      
+      
+        ©
+        
+        2025
+        
+      
+      
+         · 
+        Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+      
+      
+    </section>
+  </footer>
+
+
+    </main>
+
+    
+      
+        
+        <script src="/js/dark-mode.min.c2d8a1f8f2660e4a46d776277c72695a1e0ca65939d79f754441d47551604af5.js"></script>
+      
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+  </body>
+
+</html>

@@ -1,7 +1,148 @@
-<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=content-language content="en"><meta name=description content="Supponiamo che abbiate un’applicazione che usa Camel per prendere dei dati da una sorgente, trasformarli in qualche modo e mandarli da qualche altra parte, tipo una cosa del genere:
-override fun configure() { from(&ldquo;ftp://qualchecosa&rdquo;) .log(&ldquo;Connected to FTP&rdquo;) .onException(SupplierLockedException::class.java) .backOffMultiplier(supplierLockedRetryBackoff) .redeliveryDelay(supplierLockedRetryDelay) .maximumRedeliveries(supplierLockedRetryMaxRetries) .end() .onException(Exception::class.java) .bean(&ldquo;exceptionHandlerBean&rdquo;) .end() .setProperty(&ldquo;qualchecosa&rdquo;, &ldquo;qualchecosaltro&rdquo;) .bean(&ldquo;supplierLockBean&rdquo;, &ldquo;lock&rdquo;) .choice() .when(exchangeProperty(&ldquo;zip&rdquo;)) .unmarshal() .zipFile() .log(&ldquo;Unzip complete&rdquo;) .end() .bean(&ldquo;s3UploaderBean&rdquo;) .bean(&ldquo;qualchecosaBean&rdquo;) .bean(&ldquo;supplierLockBean&rdquo;, &ldquo;unlock&rdquo;) .log(&ldquo;Conversion complete&rdquo;) .log(&ldquo;Upload DataLake&rdquo;) .bean(&ldquo;s3DataLakeUploaderBean&rdquo;) .choice() .when(writeCsv) .multicast() .to(&ldquo;direct:sendToFtp&rdquo;) .to(rabbitMqEndpoint) ."><meta name=keywords content><meta name=twitter:card content="summary"><meta name=twitter:title content="Unit testing delle rotte di Apache Camel"><meta name=twitter:description content="Supponiamo che abbiate un’applicazione che usa Camel per prendere dei dati da una sorgente, trasformarli in qualche modo e mandarli da qualche altra parte, tipo una cosa del genere:
-override fun configure() { from(&ldquo;ftp://qualchecosa&rdquo;) .log(&ldquo;Connected to FTP&rdquo;) .onException(SupplierLockedException::class.java) .backOffMultiplier(supplierLockedRetryBackoff) .redeliveryDelay(supplierLockedRetryDelay) .maximumRedeliveries(supplierLockedRetryMaxRetries) .end() .onException(Exception::class.java) .bean(&ldquo;exceptionHandlerBean&rdquo;) .end() .setProperty(&ldquo;qualchecosa&rdquo;, &ldquo;qualchecosaltro&rdquo;) .bean(&ldquo;supplierLockBean&rdquo;, &ldquo;lock&rdquo;) .choice() .when(exchangeProperty(&ldquo;zip&rdquo;)) .unmarshal() .zipFile() .log(&ldquo;Unzip complete&rdquo;) .end() .bean(&ldquo;s3UploaderBean&rdquo;) .bean(&ldquo;qualchecosaBean&rdquo;) .bean(&ldquo;supplierLockBean&rdquo;, &ldquo;unlock&rdquo;) .log(&ldquo;Conversion complete&rdquo;) .log(&ldquo;Upload DataLake&rdquo;) .bean(&ldquo;s3DataLakeUploaderBean&rdquo;) .choice() .when(writeCsv) .multicast() .to(&ldquo;direct:sendToFtp&rdquo;) .to(rabbitMqEndpoint) ."><meta property="og:title" content="Unit testing delle rotte di Apache Camel"><meta property="og:description" content="Supponiamo che abbiate un’applicazione che usa Camel per prendere dei dati da una sorgente, trasformarli in qualche modo e mandarli da qualche altra parte, tipo una cosa del genere:
-override fun configure() { from(&ldquo;ftp://qualchecosa&rdquo;) .log(&ldquo;Connected to FTP&rdquo;) .onException(SupplierLockedException::class.java) .backOffMultiplier(supplierLockedRetryBackoff) .redeliveryDelay(supplierLockedRetryDelay) .maximumRedeliveries(supplierLockedRetryMaxRetries) .end() .onException(Exception::class.java) .bean(&ldquo;exceptionHandlerBean&rdquo;) .end() .setProperty(&ldquo;qualchecosa&rdquo;, &ldquo;qualchecosaltro&rdquo;) .bean(&ldquo;supplierLockBean&rdquo;, &ldquo;lock&rdquo;) .choice() .when(exchangeProperty(&ldquo;zip&rdquo;)) .unmarshal() .zipFile() .log(&ldquo;Unzip complete&rdquo;) .end() .bean(&ldquo;s3UploaderBean&rdquo;) .bean(&ldquo;qualchecosaBean&rdquo;) .bean(&ldquo;supplierLockBean&rdquo;, &ldquo;unlock&rdquo;) .log(&ldquo;Conversion complete&rdquo;) .log(&ldquo;Upload DataLake&rdquo;) .bean(&ldquo;s3DataLakeUploaderBean&rdquo;) .choice() .when(writeCsv) .multicast() .to(&ldquo;direct:sendToFtp&rdquo;) .to(rabbitMqEndpoint) ."><meta property="og:type" content="article"><meta property="og:url" content="http://example.org/2019/11/unit-testing-delle-rotte-di-apache-camel/"><meta property="article:published_time" content="2019-11-19T08:35:00+00:00"><meta property="article:modified_time" content="2019-11-19T08:35:00+00:00"><base href=http://example.org/2019/11/unit-testing-delle-rotte-di-apache-camel/><title>Unit testing delle rotte di Apache Camel · Raibaz.</title><link rel=canonical href=http://example.org/2019/11/unit-testing-delle-rotte-di-apache-camel/><link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel=stylesheet><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.13.0/css/all.css integrity=sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V crossorigin=anonymous><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin=anonymous><link rel=stylesheet href=/css/coder.min.31a395781f1caab4e90f89f7e5d0f0195b7c1944686a54267ed15c08a820827b.css integrity="sha256-MaOVeB8cqrTpD4n35dDwGVt8GURoalQmftFcCKgggns=" crossorigin=anonymous media=screen><link rel=icon type=image/png href=http://example.org/images/favicon-32x32.png sizes=32x32><link rel=icon type=image/png href=http://example.org/images/favicon-16x16.png sizes=16x16><meta name=generator content="Hugo 0.74.1"></head><body class=colorscheme-light><main class=wrapper><nav class=navigation><section class=container><a class=navigation-title href=/>Raibaz.</a></section></nav><div class=content><section class="container page"><article><header><h1>Unit testing delle rotte di Apache Camel</h1></header><p>Supponiamo che abbiate un’applicazione che usa Camel per prendere dei dati da una sorgente, trasformarli in qualche modo e mandarli da qualche altra parte, tipo una cosa del genere:</p><p>override fun configure() {
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
+    
+
+    
+    <meta name="description" content="Supponiamo che abbiate un’applicazione che usa Camel per prendere dei dati da una sorgente, trasformarli in qualche modo e mandarli da qualche altra parte, tipo una cosa del genere:
+
+   class MyRouteBuilder : RouteBuilder() {
+override fun configure() {
+from(&ldquo;ftp://qualchecosa&rdquo;)
+.log(&ldquo;Connected to FTP&rdquo;)
+.onException(SupplierLockedException::class.java)
+.backOffMultiplier(supplierLockedRetryBackoff)
+.redeliveryDelay(supplierLockedRetryDelay)
+.maximumRedeliveries(supplierLockedRetryMaxRetries)
+.end()
+.onException(Exception::class.java)
+.bean(&ldquo;exceptionHandlerBean&rdquo;)
+.end()
+.setProperty(&ldquo;qualchecosa&rdquo;, &ldquo;qualchecosaltro&rdquo;)
+.bean(&ldquo;supplierLockBean&rdquo;, &ldquo;lock&rdquo;)
+.choice()
+.when(exchangeProperty(&ldquo;zip&rdquo;))
+.unmarshal()
+.zipFile()
+.log(&ldquo;Unzip complete&rdquo;)
+.end()
+.bean(&ldquo;s3UploaderBean&rdquo;)
+.bean(&ldquo;qualchecosaBean&rdquo;)
+.bean(&ldquo;supplierLockBean&rdquo;, &ldquo;unlock&rdquo;)
+.log(&ldquo;Conversion complete&rdquo;)
+.log(&ldquo;Upload DataLake&rdquo;)
+.bean(&ldquo;s3DataLakeUploaderBean&rdquo;)
+.choice()
+.when(writeCsv)
+.multicast()
+.to(&ldquo;direct:sendToFtp&rdquo;)
+.to(rabbitMqEndpoint)
+.to(&ldquo;micrometer:counter:qualchecosa&rdquo;)
+.endChoice()
+.otherwise()
+.to(rabbitMqEndpoint)
+.to(&ldquo;micrometer:counter:qualchecosa&rdquo;)
+.end()
+}
+}">
+    <meta name="keywords" content="">
+
+    
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://www.raibaz.it/images/main-image.png">
+  <meta name="twitter:title" content="Unit testing delle rotte di Apache Camel">
+  <meta name="twitter:description" content="Supponiamo che abbiate un’applicazione che usa Camel per prendere dei dati da una sorgente, trasformarli in qualche modo e mandarli da qualche altra parte, tipo una cosa del genere:
+class MyRouteBuilder : RouteBuilder() { override fun configure() { from(“ftp://qualchecosa”) .log(“Connected to FTP”) .onException(SupplierLockedException::class.java) .backOffMultiplier(supplierLockedRetryBackoff) .redeliveryDelay(supplierLockedRetryDelay) .maximumRedeliveries(supplierLockedRetryMaxRetries) .end() .onException(Exception::class.java) .bean(“exceptionHandlerBean”) .end() .setProperty(“qualchecosa”, “qualchecosaltro”) .bean(“supplierLockBean”, “lock”) .choice() .when(exchangeProperty(“zip”)) .unmarshal() .zipFile() .log(“Unzip complete”) .end() .bean(“s3UploaderBean”) .bean(“qualchecosaBean”) .bean(“supplierLockBean”, “unlock”) .log(“Conversion complete”) .log(“Upload DataLake”) .bean(“s3DataLakeUploaderBean”) .choice() .when(writeCsv) .multicast() .to(“direct:sendToFtp”) .to(rabbitMqEndpoint) .to(“micrometer:counter:qualchecosa”) .endChoice() .otherwise() .to(rabbitMqEndpoint) .to(“micrometer:counter:qualchecosa”) .end() } }">
+
+    <meta property="og:url" content="https://www.raibaz.it/2019/11/unit-testing-delle-rotte-di-apache-camel/">
+  <meta property="og:site_name" content="Raibaz.">
+  <meta property="og:title" content="Unit testing delle rotte di Apache Camel">
+  <meta property="og:description" content="Supponiamo che abbiate un’applicazione che usa Camel per prendere dei dati da una sorgente, trasformarli in qualche modo e mandarli da qualche altra parte, tipo una cosa del genere:
+class MyRouteBuilder : RouteBuilder() { override fun configure() { from(“ftp://qualchecosa”) .log(“Connected to FTP”) .onException(SupplierLockedException::class.java) .backOffMultiplier(supplierLockedRetryBackoff) .redeliveryDelay(supplierLockedRetryDelay) .maximumRedeliveries(supplierLockedRetryMaxRetries) .end() .onException(Exception::class.java) .bean(“exceptionHandlerBean”) .end() .setProperty(“qualchecosa”, “qualchecosaltro”) .bean(“supplierLockBean”, “lock”) .choice() .when(exchangeProperty(“zip”)) .unmarshal() .zipFile() .log(“Unzip complete”) .end() .bean(“s3UploaderBean”) .bean(“qualchecosaBean”) .bean(“supplierLockBean”, “unlock”) .log(“Conversion complete”) .log(“Upload DataLake”) .bean(“s3DataLakeUploaderBean”) .choice() .when(writeCsv) .multicast() .to(“direct:sendToFtp”) .to(rabbitMqEndpoint) .to(“micrometer:counter:qualchecosa”) .endChoice() .otherwise() .to(rabbitMqEndpoint) .to(“micrometer:counter:qualchecosa”) .end() } }">
+  <meta property="og:locale" content="it_it">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2019-11-19T08:35:00+00:00">
+    <meta property="article:modified_time" content="2019-11-19T08:35:00+00:00">
+    <meta property="og:image" content="https://www.raibaz.it/images/main-image.png">
+
+
+    <title>
+  Unit testing delle rotte di Apache Camel · Raibaz.
+</title>
+
+    
+      <link rel="canonical" href="https://www.raibaz.it/2019/11/unit-testing-delle-rotte-di-apache-camel/">
+    
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.1.7" as="font" type="font/woff2" crossorigin>
+
+    
+      
+      
+      <link rel="stylesheet" href="/css/coder.min.css" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+    
+
+    <meta name="generator" content="Hugo 0.142.0">
+  </head>
+
+  
+  
+  <body class="colorscheme-light"
+        onload=""
+  >
+    
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      Raibaz.
+    </a>    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      
+      <h1>Unit testing delle rotte di Apache Camel</h1>
+    </header>
+    <p>Supponiamo che abbiate un’applicazione che usa Camel per prendere dei dati da una sorgente, trasformarli in qualche modo e mandarli da qualche altra parte, tipo una cosa del genere:</p>
+<div style="height: 250px; position:relative; margin-bottom: 50px;" class="wp-block-simple-code-block-ace">
+  <pre class="wp-block-simple-code-block-ace" style="position:absolute;top:0;right:0;bottom:0;left:0" data-mode="kotlin" data-theme="solarized_dark" data-fontsize="14" data-lines="Infinity" data-showlines="true" data-copy="false"> class MyRouteBuilder : RouteBuilder() {
+<p>override fun configure() {
 from(&ldquo;ftp://qualchecosa&rdquo;)
 .log(&ldquo;Connected to FTP&rdquo;)
 .onException(SupplierLockedException::class.java)
@@ -38,17 +179,137 @@ from(&ldquo;ftp://qualchecosa&rdquo;)
 .to(&ldquo;micrometer:counter:qualchecosa&rdquo;)
 .end()
 }
-}</p><p><em>Nota: i miei esempi sono in Kotlin, ma tradurli in Java è banale</em>.</p><p>Senza stare ad arrovellarsi troppo su quello che succede, è una roba che legge un file da un FTP, lo passa attraverso una serie di bean ognuno dei quali fa qualcosa, tipo caricare dei dati su S3, o trasformarli in qualche modo, o lockare/unlockare qualcosa, in qualche occasione fa anche delle scelte, quindi ha della logica interna, e poi manda tutto in degli altri posti.</p><p>Mettiamo caso che siate dei bravi sviluppatori, e che quindi vogliate scrivere degli unit test per essere sicuri che i bean vengano eseguiti nell’ordine giusto, con i parametri giusti e che tra sei mesi, quando cambiate una virgola da qualche parte, non introduciate delle regressioni per cui i file non vengono più mandati come dovrebbero.</p><p>Come si testa questa roba? Camel, che è un progetto Apache e quindi vuole bene ai bravi sviluppatori, ha <a href=https://camel.apache.org/manual/latest/testing.html>un modulo apposta</a> per testare le cose.</p><p>Tutto inizia facendo estendere alla classe dei vostri test la classe <code>CamelTestSupport</code>: questo farà sì che eseguendo i test contenuti al suo interno Camel crei il suo contesto e lo esegua, con i tweak opportuni legati al fatto che siamo in ambiente di test.</p><p>Per dire che vogliamo testare le rotte del routebuilder in questione, si fa l’override di <code>createRouteBuilder</code>:</p><p>Ed ecco il primo problema: è uno unit test, che realisticamente voglio eseguire anche nel mio ambiente di CI, per cui non ho a disposizione, nè voglio averli, un server FTP da cui leggere o una coda RabbitMQ su cui scrivere: come faccio a dire al mio test di leggere e scrivere da altre parti?</p><p>Camel-test fa anche questo, con <code>adviceWith</code> che permette di sovrascrivere alcune proprietà di una rotta con altre più utili al contesto di un test.</p><p>Per farlo, è sufficiente dire al test che si vuole usarlo e, appunto, chiamare <code>adviceWith</code> sulla rotta da modificare:</p><p>override fun isUseAdviceWith(): Boolean { return true }</p><p>@Before
+}</pre></p>
+</div>
+<p><em>Nota: i miei esempi sono in Kotlin, ma tradurli in Java è banale</em>.</p>
+<p>Senza stare ad arrovellarsi troppo su quello che succede, è una roba che legge un file da un FTP, lo passa attraverso una serie di bean ognuno dei quali fa qualcosa, tipo caricare dei dati su S3, o trasformarli in qualche modo, o lockare/unlockare qualcosa, in qualche occasione fa anche delle scelte, quindi ha della logica interna, e poi manda tutto in degli altri posti.</p>
+<p>Mettiamo caso che siate dei bravi sviluppatori, e che quindi vogliate scrivere degli unit test per essere sicuri che i bean vengano eseguiti nell’ordine giusto, con i parametri giusti e che tra sei mesi, quando cambiate una virgola da qualche parte, non introduciate delle regressioni per cui i file non vengono più mandati come dovrebbero.</p>
+<p>Come si testa questa roba? Camel, che è un progetto Apache e quindi vuole bene ai bravi sviluppatori, ha <a href="https://camel.apache.org/manual/latest/testing.html">un modulo apposta</a> per testare le cose.</p>
+<p>Tutto inizia facendo estendere alla classe dei vostri test la classe <code>CamelTestSupport</code>: questo farà sì che eseguendo i test contenuti al suo interno Camel crei il suo contesto e lo esegua, con i tweak opportuni legati al fatto che siamo in ambiente di test.</p>
+<p>Per dire che vogliamo testare le rotte del routebuilder in questione, si fa l’override di <code>createRouteBuilder</code>:</p>
+<div style="height: 250px; position:relative; margin-bottom: 50px;" class="wp-block-simple-code-block-ace">
+  <pre class="wp-block-simple-code-block-ace" style="position:absolute;top:0;right:0;bottom:0;left:0" data-mode="kotlin" data-theme="solarized_dark" data-fontsize="14" data-lines="Infinity" data-showlines="true" data-copy="false">override fun createRouteBuilder(): RoutesBuilder {
+    return MyRouteBuilder(conf)
+}</pre>
+</div>
+<p>Ed ecco il primo problema: è uno unit test, che realisticamente voglio eseguire anche nel mio ambiente di CI, per cui non ho a disposizione, nè voglio averli, un server FTP da cui leggere o una coda RabbitMQ su cui scrivere: come faccio a dire al mio test di leggere e scrivere da altre parti?</p>
+<p>Camel-test fa anche questo, con <code>adviceWith</code> che permette di sovrascrivere alcune proprietà di una rotta con altre più utili al contesto di un test.</p>
+<p>Per farlo, è sufficiente dire al test che si vuole usarlo e, appunto, chiamare <code>adviceWith</code> sulla rotta da modificare:</p>
+<div style="height: 250px; position:relative; margin-bottom: 50px;" class="wp-block-simple-code-block-ace">
+  <pre class="wp-block-simple-code-block-ace" style="position:absolute;top:0;right:0;bottom:0;left:0" data-mode="kotlin" data-theme="solarized_dark" data-fontsize="14" data-lines="Infinity" data-showlines="true" data-copy="false">@EndpointInject(uri = "mock:testEndpoint")
+private var mockEndpoint = MockEndpoint()
+<p>override fun isUseAdviceWith(): Boolean { return true }</p>
+<p>@Before
 fun setup() {
 context.routeDefinitions[0].adviceWith(context, object : AdviceWithRouteBuilder() {
 override fun configure() {
 replaceFromWith(&ldquo;direct:test&rdquo;)
-weaveByToString&lt;RouteDefinition>(&rdquo;.<em>rabbitmq.</em>").replace().to(&ldquo;mock:testEndpoint&rdquo;)
+weaveByToString&lt;RouteDefinition&gt;(&quot;.<em>rabbitmq.</em>&quot;).replace().to(&ldquo;mock:testEndpoint&rdquo;)
 }
 })
 context.start()
-}</p><p>Qui, oltre a dire che il test usa <code>adviceWith</code>, stiamo sostituendo il from della rotta con un endpoint sul quale potremo scrivere dati a nostro piacimento per guidare il comportamento della rotta stessa, e già che ci siamo sostituiamo la destinazione RabbitMQ con un <code>MockEndpoint</code>, sul quale poi potremo fare delle asserzioni per verificare che tutto avvenga come ci aspettiamo.</p><p>Nota: <code>AdviceWithRouteBuilder</code> ha anche un metodo <code>interceptSendToEndpoint</code> che serve a intercettare i dati mandati agli endpoint e farci cose utili per i test, ma faceva un po’ a pugni con le mie rotte RabbitMQ per cui ho deciso di prendere l’endpoint e sostituirlo del tutto, tanto per lo scopo del mio test non fa differenza.</p><p>Se eseguite un test, anche vuoto, a questo punto, ottenete comunque un errore, perché quando Camel prova a prendere i bean dal contesto JNDI non trova niente. Il pezzo mancante del puzzle, quindi, è questo:</p><pre><code>return context
-</code></pre><p>}</p><p>Che crea un contesto JNDI e ci binda dentro una serie di oggetti mockati (io uso <a href=https://mockk.io/>MockK</a>, ma potete usare Mockito o il framework di mocking che più vi piace) che nel test poi andremo a pilotare e ispezionare alla bisogna.</p><p>Ora è tutto pronto, possiamo sbizzarrirci a testare cose, tipo ad esempio:</p><p>Ecco svelato a cosa serviva il <code>MockEndpoint</code> di prima: possiamo verificare che la rotta arrivi in fondo dichiarando che ci aspettiamo che arrivi un messaggio se mandiamo un messaggio al from.</p><p>Oppure possiamo fare buon uso dei mock che abbiamo iniettato nel contesto JNDI, verificando che lock e unlock vengano eseguite in sequenza:</p><p>Insomma, avete capito, a questo punto l’infrastruttura per testare la rotta è a posto e sta a voi (o a me) sbizzarrirsi a testare tutto quello che succede.</p></article></section></div><footer class=footer><section class=container>©
-2020
-·
-Powered by <a href=https://gohugo.io/>Hugo</a> & <a href=https://github.com/luizdepra/hugo-coder/>Coder</a>.</section></footer></main></body></html>
+}</pre></p>
+</div>
+<p>Qui, oltre a dire che il test usa <code>adviceWith</code>, stiamo sostituendo il from della rotta con un endpoint sul quale potremo scrivere dati a nostro piacimento per guidare il comportamento della rotta stessa, e già che ci siamo sostituiamo la destinazione RabbitMQ con un <code>MockEndpoint</code>, sul quale poi potremo fare delle asserzioni per verificare che tutto avvenga come ci aspettiamo.</p>
+<p>Nota: <code>AdviceWithRouteBuilder</code> ha anche un metodo <code>interceptSendToEndpoint</code> che serve a intercettare i dati mandati agli endpoint e farci cose utili per i test, ma faceva un po’ a pugni con le mie rotte RabbitMQ per cui ho deciso di prendere l’endpoint e sostituirlo del tutto, tanto per lo scopo del mio test non fa differenza.</p>
+<p>Se eseguite un test, anche vuoto, a questo punto, ottenete comunque un errore, perché quando Camel prova a prendere i bean dal contesto JNDI non trova niente. Il pezzo mancante del puzzle, quindi, è questo:</p>
+<div style="height: 250px; position:relative; margin-bottom: 50px;" class="wp-block-simple-code-block-ace">
+  <pre class="wp-block-simple-code-block-ace" style="position:absolute;top:0;right:0;bottom:0;left:0" data-mode="kotlin" data-theme="solarized_dark" data-fontsize="14" data-lines="Infinity" data-showlines="true" data-copy="false">override fun createJndiContext(): Context {
+    val context = JndiContext()
+    context.bind("supplierLockBean", mockSupplierLockBean)
+    context.bind("s3UploaderBean", mockS3UploaderBean)
+    context.bind("qualchecosaBean", mockQualchecosaBean)
+    context.bind("s3DataLakeUploaderBean", mockS3DataLakeUploaderBean)
+    context.bind("writeCsvBean", mockWriteCsvBean)
+    context.bind("exceptionHandlerBean", mockExceptionHandlerBean)
+<pre><code>return context
+</code></pre>
+<p>}</pre></p>
+</div>
+<p>Che crea un contesto JNDI e ci binda dentro una serie di oggetti mockati (io uso <a href="https://mockk.io/">MockK</a>, ma potete usare Mockito o il framework di mocking che più vi piace) che nel test poi andremo a pilotare e ispezionare alla bisogna.</p>
+<p>Ora è tutto pronto, possiamo sbizzarrirci a testare cose, tipo ad esempio:</p>
+<div style="height: 250px; position:relative; margin-bottom: 50px;" class="wp-block-simple-code-block-ace">
+  <pre class="wp-block-simple-code-block-ace" style="position:absolute;top:0;right:0;bottom:0;left:0" data-mode="kotlin" data-theme="solarized_dark" data-fontsize="14" data-lines="Infinity" data-showlines="true" data-copy="false">@Test
+fun `It sends to the final endpoint`() {
+    mockEndpoint.expectedMessageCount(1)
+    template.sendBody("direct:test", "test body")
+    mockEndpoint.assertIsSatisfied()
+}</pre>
+</div>
+<p>Ecco svelato a cosa serviva il <code>MockEndpoint</code> di prima: possiamo verificare che la rotta arrivi in fondo dichiarando che ci aspettiamo che arrivi un messaggio se mandiamo un messaggio al from.</p>
+<p>Oppure possiamo fare buon uso dei mock che abbiamo iniettato nel contesto JNDI, verificando che lock e unlock vengano eseguite in sequenza:</p>
+<div style="height: 250px; position:relative; margin-bottom: 50px;" class="wp-block-simple-code-block-ace">
+  <pre class="wp-block-simple-code-block-ace" style="position:absolute;top:0;right:0;bottom:0;left:0" data-mode="kotlin" data-theme="solarized_dark" data-fontsize="14" data-lines="Infinity" data-showlines="true" data-copy="false">@Test
+fun `It locks and unlocks the supplier`() {
+    template.sendBody("direct:test", "test body")
+    verifySequence {
+        mockSupplierLockBean.lock(any())
+        mockSupplierLockBean.unlock(any())
+    }
+}</pre>
+</div>
+<p>Insomma, avete capito, a questo punto l’infrastruttura per testare la rotta è a posto e sta a voi (o a me) sbizzarrirsi a testare tutto quello che succede.</p>
+
+  </article>
+</section>
+
+  
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      <p>Vuoi fomentare la mia passione per la lettura? Comprami un regalo dalla mia enorme wishlist <a href="https://www.amazon.it/hz/wishlist/ls/E9BMTJJ7ROU6?ref_=wl_share">qui</a>.</p>
+    </section>
+    <section class="webring container">
+      <webring-banner>
+        <p>Member of <a href="https://retronerds.netlify.app/">Retronerds</a></p>
+        <a href="https://retronerds.netlify.app/prev">Previous</a>
+        <a href="https://retronerds.netlify.app/random">Random</a>
+        <a href="https://retronerds.netlify.app/next">Next</a>
+      </webring-banner>
+      <script async src="https://retronerds.netlify.app/embed.js" charset="utf-8"></script>
+    </section>
+    <section class="container">
+      
+      
+        ©
+        
+        2025
+        
+      
+      
+         · 
+        Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+      
+      
+    </section>
+  </footer>
+
+
+    </main>
+
+    
+      
+        
+        <script src="/js/dark-mode.min.c2d8a1f8f2660e4a46d776277c72695a1e0ca65939d79f754441d47551604af5.js"></script>
+      
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+  </body>
+
+</html>

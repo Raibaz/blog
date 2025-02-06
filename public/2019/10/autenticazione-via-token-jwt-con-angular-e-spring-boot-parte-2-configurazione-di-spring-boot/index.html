@@ -1,10 +1,267 @@
-<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=content-language content="en"><meta name=description content="(Nota: questo è il terzo post di una serie che inizia qui e prosegue qui)
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
+    
+
+    
+    <meta name="description" content="(Nota: questo è il terzo post di una serie che inizia qui e prosegue qui)
 Nella puntata precedente abbiamo visto come far fare il social login all’applicazione frontend, ora è il momento di configurare l’applicazione backend perché non permetta ad utenti non autenticati di accedere all’API.
-Premessa: la mia applicazione backend è scritta in Kotlin, per cui i pezzi di codice che incollerò potranno essere leggermente diversi da quelli della maggior parte dei tutorial che si trovano in rete, che sono scritti in Java, ma confido che si riescano a leggere lo stesso."><meta name=keywords content><meta name=twitter:card content="summary"><meta name=twitter:title content="Autenticazione via token JWT con Angular e Spring Boot: parte 2, configurazione di Spring Boot"><meta name=twitter:description content="(Nota: questo è il terzo post di una serie che inizia qui e prosegue qui)
+Premessa: la mia applicazione backend è scritta in Kotlin, per cui i pezzi di codice che incollerò potranno essere leggermente diversi da quelli della maggior parte dei tutorial che si trovano in rete, che sono scritti in Java, ma confido che si riescano a leggere lo stesso.">
+    <meta name="keywords" content="">
+
+    
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://www.raibaz.it/images/main-image.png">
+  <meta name="twitter:title" content="Autenticazione via token JWT con Angular e Spring Boot: parte 2, configurazione di Spring Boot">
+  <meta name="twitter:description" content="(Nota: questo è il terzo post di una serie che inizia qui e prosegue qui)
 Nella puntata precedente abbiamo visto come far fare il social login all’applicazione frontend, ora è il momento di configurare l’applicazione backend perché non permetta ad utenti non autenticati di accedere all’API.
-Premessa: la mia applicazione backend è scritta in Kotlin, per cui i pezzi di codice che incollerò potranno essere leggermente diversi da quelli della maggior parte dei tutorial che si trovano in rete, che sono scritti in Java, ma confido che si riescano a leggere lo stesso."><meta property="og:title" content="Autenticazione via token JWT con Angular e Spring Boot: parte 2, configurazione di Spring Boot"><meta property="og:description" content="(Nota: questo è il terzo post di una serie che inizia qui e prosegue qui)
+Premessa: la mia applicazione backend è scritta in Kotlin, per cui i pezzi di codice che incollerò potranno essere leggermente diversi da quelli della maggior parte dei tutorial che si trovano in rete, che sono scritti in Java, ma confido che si riescano a leggere lo stesso.">
+
+    <meta property="og:url" content="https://www.raibaz.it/2019/10/autenticazione-via-token-jwt-con-angular-e-spring-boot-parte-2-configurazione-di-spring-boot/">
+  <meta property="og:site_name" content="Raibaz.">
+  <meta property="og:title" content="Autenticazione via token JWT con Angular e Spring Boot: parte 2, configurazione di Spring Boot">
+  <meta property="og:description" content="(Nota: questo è il terzo post di una serie che inizia qui e prosegue qui)
 Nella puntata precedente abbiamo visto come far fare il social login all’applicazione frontend, ora è il momento di configurare l’applicazione backend perché non permetta ad utenti non autenticati di accedere all’API.
-Premessa: la mia applicazione backend è scritta in Kotlin, per cui i pezzi di codice che incollerò potranno essere leggermente diversi da quelli della maggior parte dei tutorial che si trovano in rete, che sono scritti in Java, ma confido che si riescano a leggere lo stesso."><meta property="og:type" content="article"><meta property="og:url" content="http://example.org/2019/10/autenticazione-via-token-jwt-con-angular-e-spring-boot-parte-2-configurazione-di-spring-boot/"><meta property="article:published_time" content="2019-10-10T07:50:47+00:00"><meta property="article:modified_time" content="2019-10-10T07:50:47+00:00"><base href=http://example.org/2019/10/autenticazione-via-token-jwt-con-angular-e-spring-boot-parte-2-configurazione-di-spring-boot/><title>Autenticazione via token JWT con Angular e Spring Boot: parte 2, configurazione di Spring Boot · Raibaz.</title><link rel=canonical href=http://example.org/2019/10/autenticazione-via-token-jwt-con-angular-e-spring-boot-parte-2-configurazione-di-spring-boot/><link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel=stylesheet><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.13.0/css/all.css integrity=sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V crossorigin=anonymous><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin=anonymous><link rel=stylesheet href=/css/coder.min.31a395781f1caab4e90f89f7e5d0f0195b7c1944686a54267ed15c08a820827b.css integrity="sha256-MaOVeB8cqrTpD4n35dDwGVt8GURoalQmftFcCKgggns=" crossorigin=anonymous media=screen><link rel=icon type=image/png href=http://example.org/images/favicon-32x32.png sizes=32x32><link rel=icon type=image/png href=http://example.org/images/favicon-16x16.png sizes=16x16><meta name=generator content="Hugo 0.74.1"></head><body class=colorscheme-light><main class=wrapper><nav class=navigation><section class=container><a class=navigation-title href=/>Raibaz.</a></section></nav><div class=content><section class="container page"><article><header><h1>Autenticazione via token JWT con Angular e Spring Boot: parte 2, configurazione di Spring Boot</h1></header><p><em>(Nota: questo è il terzo post di una serie che inizia <a href=https://raibaz.it/2019/10/autenticazione-via-token-jwt-con-angular-e-spring-boot/>qui</a> e prosegue <a href=https://raibaz.it/2019/10/autenticazione-via-token-jwt-con-angular-e-spring-boot-parte-1-google-login-con-angular/>qui</a>)</em></p><p>Nella puntata precedente abbiamo visto come far fare il social login all’applicazione frontend, ora è il momento di configurare l’applicazione backend perché non permetta ad utenti non autenticati di accedere all’API.</p><p>Premessa: la mia applicazione backend è scritta in Kotlin, per cui i pezzi di codice che incollerò potranno essere leggermente diversi da quelli della maggior parte dei tutorial che si trovano in rete, che sono scritti in Java, ma confido che si riescano a leggere lo stesso.</p><p>La prima cosa da fare per configurare un’applicazione Spring Boot per avere l’autenticazione è, appunto, avere una classe di configurazione per l’autenticazione: per farlo, è sufficiente annotare una classe con <code>@Configuration</code>, <code>@EnableWebSecurity</code> e <code>@EnableGlobalMethodSecurity(prePostEnabled = true)</code>.</p><p>La classe in questione, che nella mia applicazione si chiama <code>JwtSecurityConfiguration</code>, estende <code>WebSecurityConfigurerAdapter</code>, e ne fa l’override di alcuni metodi, il più importante dei quali è <code>configure(http: HttpSecurity)</code>, all’interno del quale dichiarativamente si può impostare la configurazione dell’autenticazione HTTP.</p><p>Di seguito la mia configurazione:</p><p>La dichiarazione è piuttosto lunga e articolata, quindi vediamola un pezzo per volta:</p><p>Innanzitutto diciamo che gli URL che corrispondono a <code>/api/v1/authenticate</code>, <code>/</code> e alla cartella degli asset statici sono accessibili anche dagli utenti non autenticati, mentre tutti gli altri richiedono che l’utente sia fully authenticated.</p><p>Poi definiamo qual è l’URL che slogga gli utenti (banalmente, <code>/logout</code>) e dove redirigerli dopo che si sono sloggati, abilitiamo CORS e disabilitiamo CSRF e stabiliamo come gestire le sessioni (in maniera stateless, perché il token JWT tanto verrà passato con ogni richiesta).</p><p>Poi ancora definiamo come gestire le eccezioni di autenticazione, che vedete in alto nel mio blocco di codice: se si tratta di una <code>AuthenticationException</code> lanciata mentre si faceva una richiesta all’API, allora il metodo API deve ritornare 401, altrimenti il browser viene rediretto all’home page.</p><p>Infine, mettiamo un filtro nella catena di filtri che viene eseguita prima di ogni richiesta per verificare che ci sia l’header <code>Authorization</code> con il token JWT.</p><p>Il filtro in questione è fatto così:</p><p>Dove il <em>gotcha</em> è che, per dire a Spring Boot che l’utente è autenticato, dobbiamo settare l’<code>authentication</code> nel <code>SecurityContextHolder</code>, mettendoci esattamente quello che si aspetta.</p><p>Tutto pronto quindi, funziona tutto? No, ovviamente, fioccano i 403.</p><p>Cosa manca?</p><p>Spring Boot è molto pignolo, e dopo essersi sincerato che l’utente che sta eseguendo una richiesta autenticata è, effettivamente, autenticato cerca di ottenerne i dettagli dal servizio configurato per i dettagli degli utenti…che noi però non abbiamo ancora configurato.</p><p>Nella classe di configurazione, infatti, dobbiamo fare l’override di un altro metodo:</p><p>Così facendo, diciamo a Spring Boot di usare il nostro servizio, <code>jwtUserDetailsService</code>, per recuperare i dettagli degli utenti, usando un password encoder che non fa l’encoding delle password: è una pratica assolutamente non sicura, ma nel nostro caso non usiamo le password degli utenti perché ci fidiamo di Google per dire se un utente è effettivamente valido o no, quindi a posto così.</p><p>Il <code>JwtUserDetailsService</code>, infine, è piuttosto semplice:</p><p>Cerca un utente su DB per username, che è quello che abbiamo messo in precedenza nel <code>SecurityContext</code>, e ritorna un oggetto <code>User</code> corrispondente.</p><p>Per stavolta direi che può bastare così: nella <a href=https://www.raibaz.it/2019/10/autenticazione-via-token-jwt-con-angular-e-spring-boot-parte-3-generazione-del-token-jwt/>prossima</a>, e ultima, puntata, vedremo l’implementazione dell’endpoint di autenticazione e la generazione del token JWT.</p></article></section></div><footer class=footer><section class=container>©
-2020
-·
-Powered by <a href=https://gohugo.io/>Hugo</a> & <a href=https://github.com/luizdepra/hugo-coder/>Coder</a>.</section></footer></main></body></html>
+Premessa: la mia applicazione backend è scritta in Kotlin, per cui i pezzi di codice che incollerò potranno essere leggermente diversi da quelli della maggior parte dei tutorial che si trovano in rete, che sono scritti in Java, ma confido che si riescano a leggere lo stesso.">
+  <meta property="og:locale" content="it_it">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2019-10-10T07:50:47+00:00">
+    <meta property="article:modified_time" content="2019-10-10T07:50:47+00:00">
+    <meta property="og:image" content="https://www.raibaz.it/images/main-image.png">
+
+
+    <title>
+  Autenticazione via token JWT con Angular e Spring Boot: parte 2, configurazione di Spring Boot · Raibaz.
+</title>
+
+    
+      <link rel="canonical" href="https://www.raibaz.it/2019/10/autenticazione-via-token-jwt-con-angular-e-spring-boot-parte-2-configurazione-di-spring-boot/">
+    
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.1.7" as="font" type="font/woff2" crossorigin>
+
+    
+      
+      
+      <link rel="stylesheet" href="/css/coder.min.css" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+    
+
+    <meta name="generator" content="Hugo 0.142.0">
+  </head>
+
+  
+  
+  <body class="colorscheme-light"
+        onload=""
+  >
+    
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      Raibaz.
+    </a>    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      
+      <h1>Autenticazione via token JWT con Angular e Spring Boot: parte 2, configurazione di Spring Boot</h1>
+    </header>
+    <p><em>(Nota: questo è il terzo post di una serie che inizia <a href="https://raibaz.it/2019/10/autenticazione-via-token-jwt-con-angular-e-spring-boot/">qui</a> e prosegue <a href="https://raibaz.it/2019/10/autenticazione-via-token-jwt-con-angular-e-spring-boot-parte-1-google-login-con-angular/">qui</a>)</em></p>
+<p>Nella puntata precedente abbiamo visto come far fare il social login all’applicazione frontend, ora è il momento di configurare l’applicazione backend perché non permetta ad utenti non autenticati di accedere all’API.</p>
+<p>Premessa: la mia applicazione backend è scritta in Kotlin, per cui i pezzi di codice che incollerò potranno essere leggermente diversi da quelli della maggior parte dei tutorial che si trovano in rete, che sono scritti in Java, ma confido che si riescano a leggere lo stesso.</p>
+<p>La prima cosa da fare per configurare un’applicazione Spring Boot per avere l’autenticazione è, appunto, avere una classe di configurazione per l’autenticazione: per farlo, è sufficiente annotare una classe con <code>@Configuration</code>, <code>@EnableWebSecurity</code> e <code>@EnableGlobalMethodSecurity(prePostEnabled = true)</code>.</p>
+<p>La classe in questione, che nella mia applicazione si chiama <code>JwtSecurityConfiguration</code>, estende <code>WebSecurityConfigurerAdapter</code>, e ne fa l’override di alcuni metodi, il più importante dei quali è <code>configure(http: HttpSecurity)</code>, all’interno del quale dichiarativamente si può impostare la configurazione dell’autenticazione HTTP.</p>
+<p>Di seguito la mia configurazione:</p>
+<pre class="wp-block-code"><code lang="kotlin" class="language-kotlin">val aep = AuthenticationEntryPoint { request, response, authException ->
+    if (authException is InsufficientAuthenticationException && request.requestURI.contains("/api/v1")) {
+        response.status = 401
+        response.writer.write(authException.message)
+        response.writer.flush()
+        response.writer.close()
+    } else {
+        response.sendRedirect("/")
+    }
+}
+
+http
+.authorizeRequests()
+.antMatchers("/api/v1/authenticate", "/", "/app/**/*").permitAll()
+.anyRequest().fullyAuthenticated()
+.and()
+.logout().logoutRequestMatcher(AntPathRequestMatcher("/logout"))
+.logoutSuccessUrl("/")
+.and()
+.cors()
+.and()
+.csrf().disable()
+.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS)
+.and()
+.exceptionHandling()
+.authenticationEntryPoint(aep)
+.and()
+.addFilterBefore(JwtLoginFilter(jwtTokenService), UsernamePasswordAuthenticationFilter::class.java)</code></pre>
+<p>La dichiarazione è piuttosto lunga e articolata, quindi vediamola un pezzo per volta:</p>
+<p>Innanzitutto diciamo che gli URL che corrispondono a <code>/api/v1/authenticate</code>, <code>/</code> e alla cartella degli asset statici sono accessibili anche dagli utenti non autenticati, mentre tutti gli altri richiedono che l’utente sia fully authenticated.</p>
+<p>Poi definiamo qual è l’URL che slogga gli utenti (banalmente, <code>/logout</code>) e dove redirigerli dopo che si sono sloggati, abilitiamo CORS e disabilitiamo CSRF e stabiliamo come gestire le sessioni (in maniera stateless, perché il token JWT tanto verrà passato con ogni richiesta).</p>
+<p>Poi ancora definiamo come gestire le eccezioni di autenticazione, che vedete in alto nel mio blocco di codice: se si tratta di una <code>AuthenticationException</code> lanciata mentre si faceva una richiesta all’API, allora il metodo API deve ritornare 401, altrimenti il browser viene rediretto all’home page.</p>
+<p>Infine, mettiamo un filtro nella catena di filtri che viene eseguita prima di ogni richiesta per verificare che ci sia l’header <code>Authorization</code> con il token JWT.</p>
+<p>Il filtro in questione è fatto così:</p>
+<pre class="wp-block-code"><code lang="kotlin" class="language-kotlin">class JwtLoginFilter(private val jwtTokenService: JwtTokenService) : OncePerRequestFilter() {
+
+    private val headerName = "Authorization"
+    private val headerPrefix = "Bearer "
+
+    override fun doFilterInternal(
+        request: HttpServletRequest,
+        response: HttpServletResponse,
+        filterChain: FilterChain
+    ) {
+        val authorizationHeader = request.getHeader(headerName)
+
+        if (authorizationHeader != null && authorizationHeader.startsWith(headerPrefix)) {
+
+            val token = authorizationHeader.substring(headerPrefix.length)
+
+            if (jwtTokenService.isValidToken(token)) {
+
+                val username = jwtTokenService.getUsernameFromToken(token)
+
+                val usernamePasswordAuthenticationToken = UsernamePasswordAuthenticationToken(username, "")
+                usernamePasswordAuthenticationToken.details = WebAuthenticationDetailsSource().buildDetails(request)
+                SecurityContextHolder.getContext().authentication = usernamePasswordAuthenticationToken
+            }
+        }
+
+        filterChain.doFilter(request, response)
+    }
+}</code></pre>
+<p>Dove il <em>gotcha</em> è che, per dire a Spring Boot che l’utente è autenticato, dobbiamo settare l’<code>authentication</code> nel <code>SecurityContextHolder</code>, mettendoci esattamente quello che si aspetta.</p>
+<p>Tutto pronto quindi, funziona tutto? No, ovviamente, fioccano i 403.</p>
+<p>Cosa manca?</p>
+<p>Spring Boot è molto pignolo, e dopo essersi sincerato che l’utente che sta eseguendo una richiesta autenticata è, effettivamente, autenticato cerca di ottenerne i dettagli dal servizio configurato per i dettagli degli utenti…che noi però non abbiamo ancora configurato.</p>
+<p>Nella classe di configurazione, infatti, dobbiamo fare l’override di un altro metodo:</p>
+<pre class="wp-block-code"><code lang="kotlin" class="language-kotlin">@Throws(Exception::class)
+override fun configure(auth: AuthenticationManagerBuilder?) {
+    super.configure(auth)
+    auth?.userDetailsService(jwtUserDetailsService)?.passwordEncoder(passwordEncoder())
+}
+
+@Bean
+fun passwordEncoder(): PasswordEncoder {
+    // We are not relying on user passwords, so we can use this password encoder.
+    return NoOpPasswordEncoder.getInstance()
+}</code></pre>
+<p>Così facendo, diciamo a Spring Boot di usare il nostro servizio, <code>jwtUserDetailsService</code>, per recuperare i dettagli degli utenti, usando un password encoder che non fa l’encoding delle password: è una pratica assolutamente non sicura, ma nel nostro caso non usiamo le password degli utenti perché ci fidiamo di Google per dire se un utente è effettivamente valido o no, quindi a posto così.</p>
+<p>Il <code>JwtUserDetailsService</code>, infine, è piuttosto semplice:</p>
+<pre class="wp-block-code"><code lang="kotlin" class="language-kotlin">@Service
+class JwtUserDetailsService(private val userService: UserService) : UserDetailsService {
+
+    override fun loadUserByUsername(username: String?): UserDetails {
+        val user = userService.findByEmail(username!!) ?: throw UsernameNotFoundException(username)
+
+        return org.springframework.security.core.userdetails.User(user.email, user.password, mutableListOf())
+    }
+}</code></pre>
+<p>Cerca un utente su DB per username, che è quello che abbiamo messo in precedenza nel <code>SecurityContext</code>, e ritorna un oggetto <code>User</code> corrispondente.</p>
+<p>Per stavolta direi che può bastare così: nella <a href="https://www.raibaz.it/2019/10/autenticazione-via-token-jwt-con-angular-e-spring-boot-parte-3-generazione-del-token-jwt/">prossima</a>, e ultima, puntata, vedremo l’implementazione dell’endpoint di autenticazione e la generazione del token JWT.</p>
+
+  </article>
+</section>
+
+  
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      <p>Vuoi fomentare la mia passione per la lettura? Comprami un regalo dalla mia enorme wishlist <a href="https://www.amazon.it/hz/wishlist/ls/E9BMTJJ7ROU6?ref_=wl_share">qui</a>.</p>
+    </section>
+    <section class="webring container">
+      <webring-banner>
+        <p>Member of <a href="https://retronerds.netlify.app/">Retronerds</a></p>
+        <a href="https://retronerds.netlify.app/prev">Previous</a>
+        <a href="https://retronerds.netlify.app/random">Random</a>
+        <a href="https://retronerds.netlify.app/next">Next</a>
+      </webring-banner>
+      <script async src="https://retronerds.netlify.app/embed.js" charset="utf-8"></script>
+    </section>
+    <section class="container">
+      
+      
+        ©
+        
+        2025
+        
+      
+      
+         · 
+        Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+      
+      
+    </section>
+  </footer>
+
+
+    </main>
+
+    
+      
+        
+        <script src="/js/dark-mode.min.c2d8a1f8f2660e4a46d776277c72695a1e0ca65939d79f754441d47551604af5.js"></script>
+      
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+  </body>
+
+</html>
