@@ -1,19 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Web on Raibaz.</title>
-    <link>http://localhost:1313/tags/web/</link>
-    <description>Recent content in Web on Raibaz.</description>
-    <generator>Hugo</generator>
-    <language>it-it</language>
-    <lastBuildDate>Wed, 23 Oct 2019 07:38:36 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/web/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Aggiornamenti automatici delle applicazioni Angular con service worker</title>
-      <link>http://localhost:1313/2019/10/aggiornamenti-automatici-delle-applicazioni-angular-con-service-worker/</link>
-      <pubDate>Wed, 23 Oct 2019 07:38:36 +0000</pubDate>
-      <guid>http://localhost:1313/2019/10/aggiornamenti-automatici-delle-applicazioni-angular-con-service-worker/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://www.raibaz.it/2019/10/autenticazione-via-token-jwt-con-angular-e-spring-boot/&#34;&gt;Nel lungo post precedente&lt;/a&gt; abbiamo visto come fare per spacchettare in due un monolite e rendere autonoma la single page application, sviluppata con Angular 8, che costituisce il frontend del progetto su cui lavoro.&lt;/p&gt;&#xA;&lt;p&gt;Rendere del tutto indipendente l’applicazione frontend da quella backend, però, ha un effetto collaterale piuttosto interessante: una volta che hai una single page application servita come un set di file HTML/CSS/JS statici, nulla vieta agli utenti di aprire l’applicazione una volta nella vita, tenere aperto il tab del browser per sempre e non aggiornarla mai.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Web on Raibaz.</title><link>https://www.raibaz.it/tags/web/</link><description>Recent content in Web on Raibaz.</description><generator>Hugo</generator><language>it-it</language><lastBuildDate>Wed, 23 Oct 2019 07:38:36 +0000</lastBuildDate><atom:link href="https://www.raibaz.it/tags/web/index.xml" rel="self" type="application/rss+xml"/><item><title>Aggiornamenti automatici delle applicazioni Angular con service worker</title><link>https://www.raibaz.it/2019/10/aggiornamenti-automatici-delle-applicazioni-angular-con-service-worker/</link><pubDate>Wed, 23 Oct 2019 07:38:36 +0000</pubDate><guid>https://www.raibaz.it/2019/10/aggiornamenti-automatici-delle-applicazioni-angular-con-service-worker/</guid><description>&lt;p>&lt;a href="https://www.raibaz.it/2019/10/autenticazione-via-token-jwt-con-angular-e-spring-boot/">Nel lungo post precedente&lt;/a> abbiamo visto come fare per spacchettare in due un monolite e rendere autonoma la single page application, sviluppata con Angular 8, che costituisce il frontend del progetto su cui lavoro.&lt;/p>
+&lt;p>Rendere del tutto indipendente l’applicazione frontend da quella backend, però, ha un effetto collaterale piuttosto interessante: una volta che hai una single page application servita come un set di file HTML/CSS/JS statici, nulla vieta agli utenti di aprire l’applicazione una volta nella vita, tenere aperto il tab del browser per sempre e non aggiornarla mai.&lt;/p></description></item></channel></rss>

@@ -1,19 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Guide on Raibaz.</title>
-    <link>http://localhost:1313/categories/guide/</link>
-    <description>Recent content in Guide on Raibaz.</description>
-    <generator>Hugo</generator>
-    <language>it-it</language>
-    <lastBuildDate>Wed, 17 Oct 2018 08:40:32 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/guide/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Singapore, vado a Singapore</title>
-      <link>http://localhost:1313/2018/10/singapore-vado-a-singapore/</link>
-      <pubDate>Wed, 17 Oct 2018 08:40:32 +0000</pubDate>
-      <guid>http://localhost:1313/2018/10/singapore-vado-a-singapore/</guid>
-      <description>&lt;p&gt;Inizio estate, metà giugno o giù di lì.&lt;/p&gt;&#xA;&lt;p&gt;Ho appena accettato un’offerta di lavoro che mi porterà a cambiare vita, casa, nazione e un sacco di altre cose, ma non ho ancora iniziato, inizierò dopo metà agosto, per cui è un periodo in cui ho poco altro da fare che pensare a come sarà la mia vita oltremanica senza poter fare niente di concreto in merito e immaginare il mio nuovo lavoro.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Guide on Raibaz.</title><link>https://www.raibaz.it/categories/guide/</link><description>Recent content in Guide on Raibaz.</description><generator>Hugo</generator><language>it-it</language><lastBuildDate>Wed, 17 Oct 2018 08:40:32 +0000</lastBuildDate><atom:link href="https://www.raibaz.it/categories/guide/index.xml" rel="self" type="application/rss+xml"/><item><title>Singapore, vado a Singapore</title><link>https://www.raibaz.it/2018/10/singapore-vado-a-singapore/</link><pubDate>Wed, 17 Oct 2018 08:40:32 +0000</pubDate><guid>https://www.raibaz.it/2018/10/singapore-vado-a-singapore/</guid><description>&lt;p>Inizio estate, metà giugno o giù di lì.&lt;/p>
+&lt;p>Ho appena accettato un’offerta di lavoro che mi porterà a cambiare vita, casa, nazione e un sacco di altre cose, ma non ho ancora iniziato, inizierò dopo metà agosto, per cui è un periodo in cui ho poco altro da fare che pensare a come sarà la mia vita oltremanica senza poter fare niente di concreto in merito e immaginare il mio nuovo lavoro.&lt;/p></description></item></channel></rss>

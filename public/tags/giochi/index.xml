@@ -1,19 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Giochi on Raibaz.</title>
-    <link>http://localhost:1313/tags/giochi/</link>
-    <description>Recent content in Giochi on Raibaz.</description>
-    <generator>Hugo</generator>
-    <language>it-it</language>
-    <lastBuildDate>Tue, 16 Apr 2019 07:58:02 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/giochi/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Hollow Knight è un fottuto capolavoro</title>
-      <link>http://localhost:1313/2019/04/hollow-knight-e-un-fottuto-capolavoro/</link>
-      <pubDate>Tue, 16 Apr 2019 07:58:02 +0000</pubDate>
-      <guid>http://localhost:1313/2019/04/hollow-knight-e-un-fottuto-capolavoro/</guid>
-      <description>&lt;p&gt;Questo è uno di quei post che avevo, come si suol dire, “in canna” da un sacco, visto che parla di un gioco a cui ho giocato ormai diverso tempo addietro, ma che per un motivo o per l’altro non ero mai riuscito a scrivere: fortunatamente, complice il lunghissimo volo intercontinentale su cui mi trovo, finalmente riesco a raccogliere le idee e buttarle giù.&lt;/p&gt;&#xA;&lt;p&gt;Il tutto ha inizio, per l’appunto, prima di un lunghissimo volo intercontinentale, somma fonte di noia e sbattimento per il giovane contemporaneo abituato a vivere sempre connesso e che invece si trova a dover passare qualche ora praticamente fuori dal mondo; in sostanza, l’occasione principe per cui è stato inventato il Nintendo Switch.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Giochi on Raibaz.</title><link>https://www.raibaz.it/tags/giochi/</link><description>Recent content in Giochi on Raibaz.</description><generator>Hugo</generator><language>it-it</language><lastBuildDate>Tue, 16 Apr 2019 07:58:02 +0000</lastBuildDate><atom:link href="https://www.raibaz.it/tags/giochi/index.xml" rel="self" type="application/rss+xml"/><item><title>Hollow Knight è un fottuto capolavoro</title><link>https://www.raibaz.it/2019/04/hollow-knight-e-un-fottuto-capolavoro/</link><pubDate>Tue, 16 Apr 2019 07:58:02 +0000</pubDate><guid>https://www.raibaz.it/2019/04/hollow-knight-e-un-fottuto-capolavoro/</guid><description>&lt;p>Questo è uno di quei post che avevo, come si suol dire, “in canna” da un sacco, visto che parla di un gioco a cui ho giocato ormai diverso tempo addietro, ma che per un motivo o per l’altro non ero mai riuscito a scrivere: fortunatamente, complice il lunghissimo volo intercontinentale su cui mi trovo, finalmente riesco a raccogliere le idee e buttarle giù.&lt;/p>
+&lt;p>Il tutto ha inizio, per l’appunto, prima di un lunghissimo volo intercontinentale, somma fonte di noia e sbattimento per il giovane contemporaneo abituato a vivere sempre connesso e che invece si trova a dover passare qualche ora praticamente fuori dal mondo; in sostanza, l’occasione principe per cui è stato inventato il Nintendo Switch.&lt;/p></description></item></channel></rss>
