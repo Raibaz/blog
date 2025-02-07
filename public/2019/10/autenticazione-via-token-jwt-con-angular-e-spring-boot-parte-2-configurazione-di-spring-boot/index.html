@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Language" content="en">
@@ -15,13 +15,13 @@ Premessa: la mia applicazione backend è scritta in Kotlin, per cui i pezzi di c
 
     
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="https://www.raibaz.it/images/main-image.png">
+  <meta name="twitter:image" content="http://localhost:1313/images/main-image.png">
   <meta name="twitter:title" content="Autenticazione via token JWT con Angular e Spring Boot: parte 2, configurazione di Spring Boot">
   <meta name="twitter:description" content="(Nota: questo è il terzo post di una serie che inizia qui e prosegue qui)
 Nella puntata precedente abbiamo visto come far fare il social login all’applicazione frontend, ora è il momento di configurare l’applicazione backend perché non permetta ad utenti non autenticati di accedere all’API.
 Premessa: la mia applicazione backend è scritta in Kotlin, per cui i pezzi di codice che incollerò potranno essere leggermente diversi da quelli della maggior parte dei tutorial che si trovano in rete, che sono scritti in Java, ma confido che si riescano a leggere lo stesso.">
 
-    <meta property="og:url" content="https://www.raibaz.it/2019/10/autenticazione-via-token-jwt-con-angular-e-spring-boot-parte-2-configurazione-di-spring-boot/">
+    <meta property="og:url" content="http://localhost:1313/2019/10/autenticazione-via-token-jwt-con-angular-e-spring-boot-parte-2-configurazione-di-spring-boot/">
   <meta property="og:site_name" content="Raibaz.">
   <meta property="og:title" content="Autenticazione via token JWT con Angular e Spring Boot: parte 2, configurazione di Spring Boot">
   <meta property="og:description" content="(Nota: questo è il terzo post di una serie che inizia qui e prosegue qui)
@@ -32,7 +32,7 @@ Premessa: la mia applicazione backend è scritta in Kotlin, per cui i pezzi di c
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2019-10-10T07:50:47+00:00">
     <meta property="article:modified_time" content="2019-10-10T07:50:47+00:00">
-    <meta property="og:image" content="https://www.raibaz.it/images/main-image.png">
+    <meta property="og:image" content="http://localhost:1313/images/main-image.png">
 
 
     <title>
@@ -40,7 +40,7 @@ Premessa: la mia applicazione backend è scritta in Kotlin, per cui i pezzi di c
 </title>
 
     
-      <link rel="canonical" href="https://www.raibaz.it/2019/10/autenticazione-via-token-jwt-con-angular-e-spring-boot-parte-2-configurazione-di-spring-boot/">
+      <link rel="canonical" href="http://localhost:1313/2019/10/autenticazione-via-token-jwt-con-angular-e-spring-boot-parte-2-configurazione-di-spring-boot/">
     
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -50,7 +50,7 @@ Premessa: la mia applicazione backend è scritta in Kotlin, per cui i pezzi di c
     
       
       
-      <link rel="stylesheet" href="/css/coder.min.css" crossorigin="anonymous" media="screen" />
+      <link rel="stylesheet" href="/css/coder.css" media="screen">
     
 
     
@@ -245,7 +245,7 @@ class JwtUserDetailsService(private val userService: UserService) : UserDetailsS
     
       
         
-        <script src="/js/dark-mode.min.c2d8a1f8f2660e4a46d776277c72695a1e0ca65939d79f754441d47551604af5.js"></script>
+        <script src="/js/dark-mode.js"></script>
       
     
 

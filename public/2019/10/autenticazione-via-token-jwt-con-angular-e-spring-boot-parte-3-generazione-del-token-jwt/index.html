@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Language" content="en">
@@ -39,7 +39,7 @@ Non fa niente di complicato, in effetti, fa solo tre cose:">
 
     
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="https://www.raibaz.it/images/main-image.png">
+  <meta name="twitter:image" content="http://localhost:1313/images/main-image.png">
   <meta name="twitter:title" content="Autenticazione via token JWT con Angular e Spring Boot: parte 3, generazione del token JWT">
   <meta name="twitter:description" content="(Questo è il quarto post di una serie che inizia qui e prosegue qui e qui)
 Nelle puntate precedenti:
@@ -47,7 +47,7 @@ Abbiamo descritto come funziona il flusso dell’autenticazione Abbiamo visto l�
 Il servizio invocato dal controller è fatto così:
 @Service class JwtAuthenticationService( private val userService: UserService, private val googleIdTokenVerifierService: GoogleIdTokenVerifierService, private val jwtTokenService: JwtTokenService ) { fun authenticate(request: JwtAuthenticationRequest): JwtAuthenticationResponse { userService.findByEmail(request.username) ?: throw UsernameNotFoundException(&#34;User with email $request.username not found.&#34;) googleIdTokenVerifierService.verifyToken(request.googleToken) val jwtToken = jwtTokenService.generateToken(request.username) return JwtAuthenticationResponse(jwtToken, &#34;&#34;) } } Non fa niente di complicato, in effetti, fa solo tre cose:">
 
-    <meta property="og:url" content="https://www.raibaz.it/2019/10/autenticazione-via-token-jwt-con-angular-e-spring-boot-parte-3-generazione-del-token-jwt/">
+    <meta property="og:url" content="http://localhost:1313/2019/10/autenticazione-via-token-jwt-con-angular-e-spring-boot-parte-3-generazione-del-token-jwt/">
   <meta property="og:site_name" content="Raibaz.">
   <meta property="og:title" content="Autenticazione via token JWT con Angular e Spring Boot: parte 3, generazione del token JWT">
   <meta property="og:description" content="(Questo è il quarto post di una serie che inizia qui e prosegue qui e qui)
@@ -60,7 +60,7 @@ Il servizio invocato dal controller è fatto così:
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2019-10-11T07:51:01+00:00">
     <meta property="article:modified_time" content="2019-10-11T07:51:01+00:00">
-    <meta property="og:image" content="https://www.raibaz.it/images/main-image.png">
+    <meta property="og:image" content="http://localhost:1313/images/main-image.png">
 
 
     <title>
@@ -68,7 +68,7 @@ Il servizio invocato dal controller è fatto così:
 </title>
 
     
-      <link rel="canonical" href="https://www.raibaz.it/2019/10/autenticazione-via-token-jwt-con-angular-e-spring-boot-parte-3-generazione-del-token-jwt/">
+      <link rel="canonical" href="http://localhost:1313/2019/10/autenticazione-via-token-jwt-con-angular-e-spring-boot-parte-3-generazione-del-token-jwt/">
     
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -78,7 +78,7 @@ Il servizio invocato dal controller è fatto così:
     
       
       
-      <link rel="stylesheet" href="/css/coder.min.css" crossorigin="anonymous" media="screen" />
+      <link rel="stylesheet" href="/css/coder.css" media="screen">
     
 
     
@@ -236,7 +236,7 @@ class GoogleIdTokenVerifierService {
     
       
         
-        <script src="/js/dark-mode.min.c2d8a1f8f2660e4a46d776277c72695a1e0ca65939d79f754441d47551604af5.js"></script>
+        <script src="/js/dark-mode.js"></script>
       
     
 

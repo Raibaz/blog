@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Language" content="en">
@@ -53,12 +53,12 @@ from(&ldquo;ftp://qualchecosa&rdquo;)
 
     
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="https://www.raibaz.it/images/main-image.png">
+  <meta name="twitter:image" content="http://localhost:1313/images/main-image.png">
   <meta name="twitter:title" content="Unit testing delle rotte di Apache Camel">
   <meta name="twitter:description" content="Supponiamo che abbiate un’applicazione che usa Camel per prendere dei dati da una sorgente, trasformarli in qualche modo e mandarli da qualche altra parte, tipo una cosa del genere:
 class MyRouteBuilder : RouteBuilder() { override fun configure() { from(“ftp://qualchecosa”) .log(“Connected to FTP”) .onException(SupplierLockedException::class.java) .backOffMultiplier(supplierLockedRetryBackoff) .redeliveryDelay(supplierLockedRetryDelay) .maximumRedeliveries(supplierLockedRetryMaxRetries) .end() .onException(Exception::class.java) .bean(“exceptionHandlerBean”) .end() .setProperty(“qualchecosa”, “qualchecosaltro”) .bean(“supplierLockBean”, “lock”) .choice() .when(exchangeProperty(“zip”)) .unmarshal() .zipFile() .log(“Unzip complete”) .end() .bean(“s3UploaderBean”) .bean(“qualchecosaBean”) .bean(“supplierLockBean”, “unlock”) .log(“Conversion complete”) .log(“Upload DataLake”) .bean(“s3DataLakeUploaderBean”) .choice() .when(writeCsv) .multicast() .to(“direct:sendToFtp”) .to(rabbitMqEndpoint) .to(“micrometer:counter:qualchecosa”) .endChoice() .otherwise() .to(rabbitMqEndpoint) .to(“micrometer:counter:qualchecosa”) .end() } }">
 
-    <meta property="og:url" content="https://www.raibaz.it/2019/11/unit-testing-delle-rotte-di-apache-camel/">
+    <meta property="og:url" content="http://localhost:1313/2019/11/unit-testing-delle-rotte-di-apache-camel/">
   <meta property="og:site_name" content="Raibaz.">
   <meta property="og:title" content="Unit testing delle rotte di Apache Camel">
   <meta property="og:description" content="Supponiamo che abbiate un’applicazione che usa Camel per prendere dei dati da una sorgente, trasformarli in qualche modo e mandarli da qualche altra parte, tipo una cosa del genere:
@@ -68,7 +68,7 @@ class MyRouteBuilder : RouteBuilder() { override fun configure() { from(“ftp:/
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2019-11-19T08:35:00+00:00">
     <meta property="article:modified_time" content="2019-11-19T08:35:00+00:00">
-    <meta property="og:image" content="https://www.raibaz.it/images/main-image.png">
+    <meta property="og:image" content="http://localhost:1313/images/main-image.png">
 
 
     <title>
@@ -76,7 +76,7 @@ class MyRouteBuilder : RouteBuilder() { override fun configure() { from(“ftp:/
 </title>
 
     
-      <link rel="canonical" href="https://www.raibaz.it/2019/11/unit-testing-delle-rotte-di-apache-camel/">
+      <link rel="canonical" href="http://localhost:1313/2019/11/unit-testing-delle-rotte-di-apache-camel/">
     
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -86,7 +86,7 @@ class MyRouteBuilder : RouteBuilder() { override fun configure() { from(“ftp:/
     
       
       
-      <link rel="stylesheet" href="/css/coder.min.css" crossorigin="anonymous" media="screen" />
+      <link rel="stylesheet" href="/css/coder.css" media="screen">
     
 
     
@@ -293,7 +293,7 @@ fun `It locks and unlocks the supplier`() {
     
       
         
-        <script src="/js/dark-mode.min.c2d8a1f8f2660e4a46d776277c72695a1e0ca65939d79f754441d47551604af5.js"></script>
+        <script src="/js/dark-mode.js"></script>
       
     
 

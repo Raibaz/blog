@@ -8,6 +8,7 @@ tags: []
 categories: []
 externalLink: ""
 series: []
+featured_image: "images/all-systems-red.jpg"
 ---
 
 Rapido, che è corto e si legge in fretta.
