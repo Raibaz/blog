@@ -5,6 +5,12 @@ theme = "coder"
 enableEmoji = true
 googleAnalytics = "UA-1866848-13"
 
+[outputs]
+  home = ['html', 'rss']
+  section = ['html', 'rss']
+  taxonomy = ['html']
+  term = ['html']
+
 [params]
   images = ["images/main-image.png"]
 
