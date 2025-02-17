@@ -21,4 +21,4 @@
 [[redirects]]
   from = "/feed"
   to = "/index.xml"
-  status = 200
+  status = 301
