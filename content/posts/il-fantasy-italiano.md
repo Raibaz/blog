@@ -9,6 +9,8 @@ tags = []
 categories = []
 externalLink = ""
 series = []
+featured_image = "/images/mughini.jpeg"
+images = ["/images/mughini.jpeg"]
 +++
 
 Io mi rendo conto di avere un pregiudizio nei confronti di alcune categorie di letteratura e di contenuto, ne sono conscio, e non ne vado fiero.
