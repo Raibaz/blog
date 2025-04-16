@@ -15,7 +15,7 @@ images = ["/images/einstein_pinguino.jpg"]
 
 Da quando ho un figlio ho non una, ma due pile di libri da leggere; una è la mia, una è quella dei libri da leggere con (a) lui prima di metterlo a letto.
 
-E proprio come la mia, anche la sua ha libri dalle provenienze più disparate, frutto di acquisti d'impulso in libreria o su Amazon o comprati perché ci piace l'autore (abbiamo già una discreta schiera di autori prefe, tra cui ovviamente Andy Griffiths ha [un posto d'onore](/andy-griffiths-la-terra-delle-cose-perdute)), oppure che sono finiti lì perché regalati da qualcuno.
+E proprio come la mia, anche la sua ha libri dalle provenienze più disparate, frutto di acquisti d'impulso in libreria o su Amazon o comprati perché ci piace l'autore (abbiamo già una discreta schiera di autori prefe, tra cui ovviamente Andy Griffiths ha [un posto d'onore](/posts/andy-griffiths-la-terra-delle-cose-perdute)), oppure che sono finiti lì perché regalati da qualcuno.
 
 L'ultimo libro che abbiamo finito, infatti, l'ha "portato babbo natale" a casa di mia zia:
 
