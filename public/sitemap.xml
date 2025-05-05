@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/iona-rangeley-einstein-il-pinguino/</loc>
-    <lastmod>2025-04-16T21:52:20+02:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-04-16T21:52:20+02:00</lastmod>
+    <lastmod>2025-05-05T23:28:44+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2025-05-05T23:28:44+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/simon-jimenez-the-spear-cuts-through-water/</loc>
+    <lastmod>2025-05-05T23:28:44+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/iona-rangeley-einstein-il-pinguino/</loc>
     <lastmod>2025-04-16T21:52:20+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/chiedi-a-iwata/</loc>
