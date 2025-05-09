@@ -3,7 +3,7 @@ languageCode = "it-it"
 title = "Raibaz."
 theme = "coder"
 enableEmoji = true
-googleAnalytics = "UA-1866848-13"
+googleAnalytics = "G-C88PX52YNP"
 
 [outputs]
   home = ['html', 'rss']
