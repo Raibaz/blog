@@ -31,6 +31,6 @@ Cioè, neanche due opere di nicchia, due dei manga/anime più famosi di sempre.
 
 Solo che manca la poesia di Video Girl Ai (e grazie al cazzo, direte, visto che è una delle opere più poetiche mai viste e farebbe piangere pure i sassi) e la suspence di Death Note (altrettanto grazie al cazzo, è piaciuto tantissimo pure a me che odio i gialli e non conosco nessuno che non l'abbia apprezzato, almeno fino a quella cosa che succede a poche puntate dalla fine), e quindi si perde un po': non è un brutto libro, intendiamoci, si lascia leggere molto volentieri, ma i punti in cui dici "ah, certo, come succede anche in X" sono un po' troppi, soprattutto sono troppi per le aspettative che avevo, che invece erano all'opposto.
 
-Carino, dai, non mi ci strappo i capelli ma ho letto anche di molto peggio, e poi ammettiamo anche che il confronto con il [capolavoro](/posts/the-spear-cuts-through-water/) che ho letto immediatamente prima sarebbe stato impietoso per chiunque.
+Carino, dai, non mi ci strappo i capelli ma ho letto anche di molto peggio, e poi ammettiamo anche che il confronto con il [capolavoro](/posts/simon-jimenez-the-spear-cuts-through-water/) che ho letto immediatamente prima sarebbe stato impietoso per chiunque.
 
 Tre stelline su cinque, dai, una sufficienza piena.
