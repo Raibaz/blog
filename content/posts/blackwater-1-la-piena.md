@@ -12,7 +12,7 @@ featured_image: "/images/la_piena.jpg"
 images: ["/images/la_piena.jpg"]
 ---
 
-[In precedenza](attraverso-la-notte) si parlava della mia wishlist di Amazon e del suo essere sterminata e popolata di cose che non mi ricordo neanche come ci siano finite, ma esiste anche un altro insieme di libri che vedo spesso in libreria, mi attirano, ma non a sufficienza da finire anche solo in wishlist, figurati nella mia libreria.
+[In precedenza](/posts/attraverso-la-notte) si parlava della mia wishlist di Amazon e del suo essere sterminata e popolata di cose che non mi ricordo neanche come ci siano finite, ma esiste anche un altro insieme di libri che vedo spesso in libreria, mi attirano, ma non a sufficienza da finire anche solo in wishlist, figurati nella mia libreria.
 
 La saga di Blackwater è uno di questi, se non altro perché le copertine sono, indubbiamente, molto belle e il formato tascabile ha un suo perché:
 
