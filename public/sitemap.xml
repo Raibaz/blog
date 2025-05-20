@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/gu-byeong-mo-la-pasticceria-incantata/</loc>
-    <lastmod>2025-05-09T19:22:29+02:00</lastmod>
+    <loc>http://localhost:1313/posts/george-saunders-bengodi-e-altri-racconti/</loc>
+    <lastmod>2025-05-20T12:06:09+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-05-09T19:22:29+02:00</lastmod>
+    <lastmod>2025-05-20T12:06:09+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2025-05-20T12:06:09+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/gu-byeong-mo-la-pasticceria-incantata/</loc>
     <lastmod>2025-05-09T19:22:29+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/simon-jimenez-the-spear-cuts-through-water/</loc>

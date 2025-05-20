@@ -209,6 +209,20 @@ Negli anni, ho rilasciato su GitHub alcune cose che ho scritto, a tempo perso, e
     
 
     
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-C88PX52YNP"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-C88PX52YNP');
+        }
+      </script>
   </body>
 
 </html>
