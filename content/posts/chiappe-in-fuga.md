@@ -19,6 +19,8 @@ Ed è anche più "adulto" anche nei temi, ci sono persino delle parole da non di
 
 Insomma, è il classico libro che se lo leggi a 8 anni, con o senza papà di fianco, ti fa sentire più grande, uno che legge le cose serie: i professionisti del settore direbbero che è "aspirational", per la fascia di età in cui è ora il Filo.
 
+Nella primissima pagina, giusto per mettere le cose in chiaro, c'è una premessa per i grandi che dice letteralmente "se sei un genitore, o un insegnante, o anche solo un individuo maggiorenne, metti subito via questo libro!": più aspirational e "ti voglio far sentire figo wink wink nudge nudge inside joke oh è una cosa segreta solo per noi" di così?
+
 ![pic](/images/chiappe_in_fuga.jpg#center)
 
 Sì, ma com'è? Come se la cava il solitamente ottimo Andy fuori dalla sua comfort zone letteraria?
