@@ -1,5 +1,5 @@
 +++ 
-draft = true
+draft = false
 date = 2025-07-16T16:31:04+02:00
 title = "Lo sa che non gli dico mai di no"
 description = ""
