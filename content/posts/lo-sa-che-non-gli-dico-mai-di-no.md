@@ -11,7 +11,7 @@ externalLink = ""
 series = []
 +++
 
-E quindi, challenge accepted, [Marco][https://cedmax.net/le-foto-di-kele/].
+E quindi, challenge accepted, [Marco](https://cedmax.net/le-foto-di-kele/).
 
 Non sono 20 anni precisi, sono 17, ma direi che va bene lo stesso: la pettinatura è la stessa, la barba quasi, ho solo molta più pancia, molte più rughe.
 
