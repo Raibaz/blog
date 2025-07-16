@@ -21,7 +21,7 @@ Sì, tendenzialmente preferisco i libri in cui si fa principalmente pew pew e ci
 
 Esistono però le eccezioni che confermano le regole: ho scoperto grazie alla [solita](https://masto.cazzo.lol/home) nicchia di persone bellissime dell'Internet che si può scrivere sci-fi rigorosissima, di quelle che in fondo hanno la bibliografia coi riferimenti ai paper e agli articoli scientifici che hanno informato il worldbuilding, _e anche_ scrivere narrativa avvincente e di qualità, _e anche_ stimolare profonde riflessioni sulla natura dell'esistenza umana.
 
-![pic]("/images/blindsight.jpg#center")
+![pic](/images/blindsight.jpg#center)
 
 Peter Watts fa tutto ciò, partendo dalla più classica delle premesse sci-fi, il primo contatto con gli alieni, ma lo fa ambientandolo in un futuro relativamente prossimo (la fine di questo secolo) e facendo muovere nella trama dei protagonisti che, ognuno a modo suo, hanno "pezzi di umanità" in meno, e che quindi in qualche modo sono alieni per noi tanto quanto quelli che vanno a studiare ai confini della galassia.
 

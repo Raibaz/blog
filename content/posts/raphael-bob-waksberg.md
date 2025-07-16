@@ -17,7 +17,7 @@ Raphael Bob-Waksberg è quello che ha scritto Bojack Horseman, quindi quando il 
 
 È molto molto come vi immaginate un libro di racconti del tizio che ha scritto Bojack: c'è dell'umorismo surreale, in particolare situazioni assurde descritte da punti di vista ancora più assurdi, e soprattutto c'è quell'idea di fondo che l'esistenza umana e, soprattutto, i rapporti tra le persone, siano fondamentalmente uno stracazzo di casino, che la sofferenza sia inevitabile e parte integrante dell'esperienza, che per quanto si sforzino - o non si sforzino - le persone fanno sempre comunque invariabilmente cagare, o comunque almeno sono ferite, feribili e fallibili.
 
-![pic](/images/waksberg.jpeg)
+![pic](/images/waksberg.jpeg#center)
 
 Niente di particolarmente rivoluzionario, quindi, ma che può senz'altro toccare nel profondo, come ha fatto con [Marco](https://masto.cazzo.lol/@cedmax/114801172977604738): io forse sono un po' più cinico e mi sento di dire che non mi ha distrutto così tanto.
 
