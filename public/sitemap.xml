@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/peter-watts-blindsight/</loc>
-    <lastmod>2025-07-16T11:48:16+02:00</lastmod>
+    <loc>http://localhost:1313/posts/lo-sa-che-non-gli-dico-mai-di-no/</loc>
+    <lastmod>2025-07-16T16:31:04+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-07-16T11:48:16+02:00</lastmod>
+    <lastmod>2025-07-16T16:31:04+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2025-07-16T16:31:04+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/peter-watts-blindsight/</loc>
     <lastmod>2025-07-16T11:48:16+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/raphael-bob-waksberg-qualcuno-che-ti-ami-in-tutta-la-tua-gloria-devastata/</loc>
