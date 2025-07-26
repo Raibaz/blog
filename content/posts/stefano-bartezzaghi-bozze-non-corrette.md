@@ -21,7 +21,7 @@ Come sa chi ha parlato con me per più di due minuti, come la povera sfortunata 
 
 Insomma, quando in un giro in libreria mi è caduto l'occhio su questo, l'ho comprato immediatamente:
 
-![pic]("/images/bozze_non_corrette.webp#center")
+![pic](/images/bozze_non_corrette.webp#center)
 
 Bartezzaghi + enigma + errori da scovare in un testo: cosa posso chiedere di meglio?
 
