@@ -21,7 +21,7 @@ La mia lettura da spiaggia di quest'anno sembrava salvarsi da questa ondata di r
 
 Sembrava.
 
-![pic](/images/erin-the-beast-player.jpg)
+![pic](/images/erin-the-beast-player.jpg#center)
 
 E dire che le premesse erano ottime: bestie mitologiche usate come armi in conflitti politici, con intrighi stratificati e battaglie epiche.
 
