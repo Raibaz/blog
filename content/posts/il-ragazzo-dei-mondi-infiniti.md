@@ -19,7 +19,7 @@ Neil Gaiman mette pesantemente in crisi la mia idea di "separare l'opera dall'au
 
 Oltretutto, al di là delle vicissitudini personali, è un autore eccellente non solo per me, ma anche per le letture con il Filo, di cui fa parte l'ultimo libro che abbiamo letto assieme prima di dormire:
 
-![pic]("/images/mondi_infiniti.jpg#center" "La copertina è obiettivamente bellissima, peraltro")
+![pic](/images/mondi_infiniti.jpg#center "La copertina è obiettivamente bellissima, peraltro")
 
 Rispetto alla media, questo è un Gaiman "minore": è scritto a quattro mani (ok, anche "Good Omens" è scritto a quattro mani, ma con un altro semidio della letteratura), è piuttosto fuori dalla sua comfort zone, visto che è più verso la fantascienza che verso il fantasy e ha avuto una gestazione travagliata, scritto inizialmente come pilota per una serie tv, archiviato in un cassetto per anni e poi recuperato, ma anche scrivendo con la mano sinistra e bendato Gaiman porta a scuola tutti.
 
