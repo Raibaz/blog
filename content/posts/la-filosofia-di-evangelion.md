@@ -1,9 +1,9 @@
 +++ 
 draft = false
 date = 2025-09-23T11:33:21+02:00
-title = ""
+title = "Fausto Lammoglia - La Filosofia di Neon Genesis Evangelion"
 description = ""
-slug = ""
+slug = "fausto-lammoglia-la-filosofia-di-neon-genesis-evangelion"
 authors = []
 tags = []
 categories = []
