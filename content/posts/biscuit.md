@@ -31,7 +31,7 @@ Alla fine si risolve l'episodio del giorno, si vince (ma comunque mai in maniera
 
 Il libro in questione, invero un librino da 160 pagine che si legge in un paio di giorni (come pure gli altri due sopra, d'altronde), fa esattamente questo.
 
-![pic](/image/biscuit.webp#center)
+![pic](/images/biscuit.webp#center)
 
 Sulla carta tratta un tema interessantissimo, quello delle persone che a furia di non essere viste da chi sta loro attorno tendono a sparire del tutto, diventando completamente invisibili al mondo, ma lo fa in maniera davvero superficiale.
 
