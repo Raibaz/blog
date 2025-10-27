@@ -1,9 +1,9 @@
 +++ 
 draft = false
 date = 2025-10-27T14:30:36+01:00
-title = ""
+title = "Pietro Dell'Oglio - Cronache di una Geometrista di Armonica"
 description = ""
-slug = ""
+slug = "pietro-dell-oglio-cronache-di-una-geometrista-di-armonica"
 authors = []
 tags = []
 categories = []
