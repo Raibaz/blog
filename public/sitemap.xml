@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/pietro-dell-oglio-cronache-di-una-geometrista-di-armonica/</loc>
-    <lastmod>2025-10-27T14:30:36+01:00</lastmod>
+    <loc>http://localhost:1313/posts/enrico-galiano-l-incredibile-avventura-di-un-super-errore/</loc>
+    <lastmod>2025-11-09T16:38:43+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-10-27T14:30:36+01:00</lastmod>
+    <lastmod>2025-11-09T16:38:43+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2025-11-09T16:38:43+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/pietro-dell-oglio-cronache-di-una-geometrista-di-armonica/</loc>
     <lastmod>2025-10-27T14:30:36+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/ve-schwab-vicious/</loc>
