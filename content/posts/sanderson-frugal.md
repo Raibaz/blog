@@ -9,8 +9,8 @@ tags = []
 categories = []
 externalLink = ""
 series = []
-featured_image = "/images/sanderson-frugal.jpg"
-images = ["/images/sanderson-frugal.jpg"]
+featured_image = "/images/sanderson_frugal.jpg"
+images = ["/images/sanderson_frugal.jpg"]
 +++
 
 Ho un rapporto ambivalente con Brandon Sanderson: da un lato vorrei leggerlo tantissimo, perché molte persone, anche completamente slegate tra loro, che di solito sono affidabili sono sue fan sfegatate, dall'altro le sue saghe da settecento libri di un miliardo di pagine ciascuno mi intimoriscono tantissimo.
