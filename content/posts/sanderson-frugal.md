@@ -21,7 +21,7 @@ All'inizio di quest'anno ho letto [Tress of the emerald sea](/posts/tress-of-the
 
 Cioè, dai: un Brandon Sanderson che promette di farsi leggere senza timore di perdersi niente e senza il rischio di ritrovarsi invischiati in una saga che ti porterà via tutta la vita? Imperdibile.
 
-![pic](/images/sanderson-frugal.jpg#center)
+![pic](/images/sanderson_frugal.jpg#center)
 
 Il fatto, però, è che "The frugal wizard's handbook for surviving medieval England" è un libro _fuorviante_.
 
