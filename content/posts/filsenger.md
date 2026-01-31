@@ -57,16 +57,16 @@ Bom figata, funziona tutto, adesso appena arriva il Filo costruiamo assieme un c
 
 Manda i messaggi a una funzione su Cloud Run che li manda a un bot di Telegram e da lì al mio account e fa anche la strada inversa, con in più Cloud Run che fa anche un po' di magheggini di transcoding audio con ffmpeg ed espone un endpoint a cui il Filsenger (si chiama così) fa polling per sapere se ci sono nuovi messaggi.
 
-"Ma sai che c'è però, che con lo schermo e il microfono attaccati direttamente alla breadboard poi come ce lo costruisco il case attorno?"
-"You are absolutely right! Comprati delle basette millefori così ci saldi schermo e microfono e poi da lì vai alla breadboard, tanto te le devi comprare lo stesso perché poi ci farai una versione più definitiva che breadboard è la merda e lo sai anche tu"
-"Ah, bravo bro, bella idea"
+> "Ma sai che c'è però, che con lo schermo e il microfono attaccati direttamente alla breadboard poi come ce lo costruisco il case attorno?"
+> "You are absolutely right! Comprati delle basette millefori così ci saldi schermo e microfono e poi da lì vai alla breadboard, tanto te le devi comprare lo stesso perché poi ci farai una versione più definitiva che la breadboard è la merda e lo sai anche tu"
+> "Ah, bravo bro, bella idea"
 
 Schermo buttato via dopo avergli imballato i pin di stagno.
 Ma fa niente, ne ho altri due.
 
-"Senti zio forse saldare non è il mio"
-"Non c'è problema! Usa i cavettini maschio-femmina, nella femmina infili i pin di schermo e microfono e i maschi nella breadboard, super facile"
-"Bom figata, allora aspetta che stacco il microfono dalla breadboard e lo metto nei cavettini così è lontano dalla breadboard e può uscire dal case"
+> "Senti zio forse saldare non è il mio"
+> "Non c'è problema! Usa i cavettini maschio-femmina, nella femmina infili i pin di schermo e microfono e i maschi nella breadboard, super facile"
+> "Bom figata, allora aspetta che stacco il microfono dalla breadboard e lo metto nei cavettini così è lontano dalla breadboard e può uscire dal case"
 
 L'inizio della fine.
 
