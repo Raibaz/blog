@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Raibaz.</description>
     <generator>Hugo</generator>
     <language>it-it</language>
-    <lastBuildDate>Sat, 24 Jan 2026 12:44:20 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 31 Jan 2026 22:45:29 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Filsenger, il mio ultimo progetto da nerd</title>
+      <link>http://localhost:1313/posts/filsenger-il-mio-ultimo-progetto-da-nerd/</link>
+      <pubDate>Sat, 31 Jan 2026 22:45:29 +0100</pubDate>
+      <guid>http://localhost:1313/posts/filsenger-il-mio-ultimo-progetto-da-nerd/</guid>
+      <description>&lt;p&gt;Era un po&amp;rsquo; di tempo che avevo in mente un&amp;rsquo;idea che, sulla carta, mi sembrava davvero semplice: un mini messenger che mandasse e ricevesse messaggi solo a/da un altro device equivalente, sostanzialmente una specie di walkie talkie wifi che potessi dare al mio giovane amico per comunicare con lui quando è a casa di sua madre.&lt;/p&gt;&#xA;&lt;p&gt;Ho cercato un po&amp;rsquo; oziosamente in rete se ci fosse qualcosa di simile: il meglio che ho trovato è &lt;a href=&#34;https://circuitmess.com/it-en/products/chatter-2-0&#34;&gt;Chatter&lt;/a&gt; di CircuitMess, ma non era &lt;em&gt;esattamente&lt;/em&gt; quello che volevo io e comunque ho avuto un abbonamento a CircuitMess (cioè, tecnicamente ce l&amp;rsquo;ha avuto lui) per un po&amp;rsquo; e non mi ha mai fatto una grandissima impressione, soprattutto lato hardware: belle idee, ma realizzazione un po&amp;rsquo; plasticona.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Gene Wolfe - L&#39;ombra del torturatore</title>
       <link>http://localhost:1313/posts/gene-wolfe-l-ombra-del-torturatore/</link>
