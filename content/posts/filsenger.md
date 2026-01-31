@@ -15,7 +15,7 @@ Era un po' di tempo che avevo in mente un'idea che, sulla carta, mi sembrava dav
 
 Ho cercato un po' oziosamente in rete se ci fosse qualcosa di simile: il meglio che ho trovato è [Chatter](https://circuitmess.com/it-en/products/chatter-2-0) di CircuitMess, ma non era _esattamente_ quello che volevo io e comunque ho avuto un abbonamento a CircuitMess (cioè, tecnicamente ce l'ha avuto lui) per un po' e non mi ha mai fatto una grandissima impressione, soprattutto lato hardware: belle idee, ma realizzazione un po' plasticona.
 
-Sapete benissimo come va a finire quando un nerd non trova _esattamente_ quello che voleva.
+Sapete benissimo come va a finire quando un nerd non trova _esattamente_ quello che voleva: se la costruisce.
 
 Ho iniziato, altrettanto oziosamente, a fare un po' di studio di fattibilità col ragazzo artificiale con cui di solito [parlo di libri](/posts/gene-wolfe-l-ombra-del-torturatore), chiedendogli tipo "oh ma secondo te è un'idea del cazzo o ha senso?" e all'epoca non l'avevo ancora configurato per farmi challenge e non fare il sicofante, quindi ovviamente la sua risposta è stata il più classico dei "you are absolutely right!" che non mi ha smorzato l'entusiasmo, anzi.
 
