@@ -9,8 +9,8 @@ tags = []
 categories = []
 externalLink = ""
 series = []
-featured_image = "/images/filsenger_case.jpg"
-images = ["/images/filsenger_case.jpg"]
+featured_image = "/images/filsenger_final.jpg"
+images = ["/images/filsenger_final.jpg"]
 +++
 
 Era un po' di tempo che avevo in mente un'idea che, sulla carta, mi sembrava davvero semplice: un mini messenger che mandasse e ricevesse messaggi solo a/da un altro device equivalente, sostanzialmente una specie di walkie talkie wifi che potessi dare al mio giovane amico per comunicare con lui quando è a casa di sua madre.
