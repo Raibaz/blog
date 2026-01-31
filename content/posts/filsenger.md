@@ -80,11 +80,11 @@ Altro rabbit hole.
 
 "Allora assicurati che il pin L/R sia a massa, o forse a 3V, misura col tester (che fortunatamente avevo già) tutti i pin del microfono per capire qual è quello saldato male, aspetta prova a spostare il pin SD da massa a 3V...."
 
-Altra vittima: spostando dei pin da sa dio dove a sa dio dove altro, l'ESP32 decide che non ne può più e svampa malamend.
+Altra vittima: spostando dei pin da chissà dove a chissà dove altro, l'ESP32 decide che non ne può più e svampa malamend.
 
 Pazienza, ne ho altri due.
 
-A furia di saldare e risaldare i pin del microfono divento forse un pochino più bravo col saldatore, ma soprattutto scopro che mi microfonini MEMS sono piuttosto sensibili al calore e se non li saldi un po' per volta ma tutti assieme si scaldano troppo anch'essi e soprattutto anche la membranina del microfono, che si squaglia e puoi prendere il microfono e buttarlo via.
+A furia di saldare e risaldare i pin del microfono divento forse un pochino più bravo col saldatore, ma soprattutto scopro che i microfonini MEMS sono piuttosto sensibili al calore e se non li saldi un po' per volta ma tutti assieme si scaldano troppo anch'essi e soprattutto anche la membranina del microfono, che si squaglia e puoi prendere il microfono e buttarlo via.
 
 Pazienza, ne ho altri due che squaglierò entrambi.
 
