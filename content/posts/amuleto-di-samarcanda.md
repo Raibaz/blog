@@ -15,7 +15,7 @@ images = ["/images/bartimeus_1.jpg"]
 
 Qualche tempo fa, in una delle mie peregrinazioni sul booktok, ho sentito parlare in termini entusiastici di un libro dal taglio YA in cui il protagonista è un djinn permaloso e sarcastico e in cui i maghi sono dei burocrati noiosi, dei loschi maneggioni o entrambe le cose: perfetto per uno degli ultimi trend delle mie letture col Filo, "libri fantasy e con la magia ma che non abbiano necessariamente del razzismo di fondo e non siano stati scritti da una persona di merda", che potremmo sintetizzare con il titolo "oltre Hogwarts".
 
-![pic](/images/filsenger_final.jpg#center)
+![pic](/images/bartimeus_1.jpg#center)
 
 "L'amuleto di samarcanda" ha ampiamente mantenuto le promesse: nel mondo di Jonathan Stroud, la magia avviene perché i maghi sottomettono, contro il loro volere, creature magiche che vengono dall'"Altro Luogo" come folletti, djinn, afrit e simili, dando loro istruzioni direttamente o intrappolandoli in degli oggetti, e l'intera storia è raccontata alternando il punto di vista di un apprendista mago molto talentuoso a cui il sistema mette i bastoni tra le ruote e quello di Bartimeus, il djinn che convoca all'insaputa del suo maestro per vendicarsi dell'umiliazione subita da un altro mago.
 
