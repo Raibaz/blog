@@ -41,4 +41,4 @@ Anzi, China alla fine fa il più classico dei giochi di prestigio e ti sposta l'
 
 Io, nel mio piccolo, ho ampiamente argomentato col ragazzo artificiale perché penso si sia sbagliato su questo libro, ma alla fine sticazzi: a me è piaciuto molto, e dover dimostrare perché al ragazzo artificiale mi è stato comunque molto d'aiuto nello spiegare, a me stesso prima che a lui, perché.
 
-Tre stelle e mezza su cinque.
+Quattro stelle su cinque.
