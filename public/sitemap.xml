@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/kurt-vonnegut-ghiaccio-nove/</loc>
-    <lastmod>2026-03-26T22:37:53+01:00</lastmod>
+    <loc>http://localhost:1313/posts/china-mieville-keanu-reeves-il-libro-dell-altrove/</loc>
+    <lastmod>2026-04-07T21:57:06+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2026-03-26T22:37:53+01:00</lastmod>
+    <lastmod>2026-04-07T21:57:06+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2026-04-07T21:57:06+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/kurt-vonnegut-ghiaccio-nove/</loc>
     <lastmod>2026-03-26T22:37:53+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/peter-v-brett-l-uomo-delle-rune/</loc>
