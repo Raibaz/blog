@@ -45,7 +45,7 @@ Si assiste alla tensione tra la voglia di "andare" della protagonista, che vuole
 
 A una certa, verso la fine, la protagonista diventa sostanzialmente l'Ulisse dell'inferno di Dante e quando non ha più vincoli manda tutto affanculo e va. Dove? Non ha importanza, intanto va, ed è quello tutto ciò che le rimane una volta che è da sola e non ha altre particolari preoccupazioni.
 
-Va, e scrive.
+Va, e scrive, per l'appunto il racconto all'indietro della sua vita che abbiamo appena finito di leggere noi.
 
 E alla fine, quindi, Harpman ci dice, se togli tutto, gli esseri umani quello fanno, quello sono: vanno **oltre** dove si trovano, e si lasciano dietro il racconto, le storie: è questo che ci distingue dai bruti e ci dà la virtute e la canoscenza.
 
