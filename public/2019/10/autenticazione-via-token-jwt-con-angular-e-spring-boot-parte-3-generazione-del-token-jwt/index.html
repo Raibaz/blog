@@ -39,29 +39,29 @@ Non fa niente di complicato, in effetti, fa solo tre cose:">
     <meta name="keywords" content="">
 
     
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="http://localhost:1313/images/main-image.png">
-  <meta name="twitter:title" content="Autenticazione via token JWT con Angular e Spring Boot: parte 3, generazione del token JWT">
-  <meta name="twitter:description" content="(Questo è il quarto post di una serie che inizia qui e prosegue qui e qui)
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:image" content="http://localhost:1313/images/main-image.png">
+	<meta name="twitter:title" content="Autenticazione via token JWT con Angular e Spring Boot: parte 3, generazione del token JWT">
+	<meta name="twitter:description" content="(Questo è il quarto post di una serie che inizia qui e prosegue qui e qui)
 Nelle puntate precedenti:
 Abbiamo descritto come funziona il flusso dell’autenticazione Abbiamo visto l’implementazione del Google login nell’applicazione Angular Abbiamo visto come configurare Spring Boot per gestire l’autenticazione Ci resta solo da vedere come è effettivamente implementato l’endpoint /authenticate, che valida l’utente e gli restituisce un token JWT.
 Il servizio invocato dal controller è fatto così:
 @Service class JwtAuthenticationService( private val userService: UserService, private val googleIdTokenVerifierService: GoogleIdTokenVerifierService, private val jwtTokenService: JwtTokenService ) { fun authenticate(request: JwtAuthenticationRequest): JwtAuthenticationResponse { userService.findByEmail(request.username) ?: throw UsernameNotFoundException(&#34;User with email $request.username not found.&#34;) googleIdTokenVerifierService.verifyToken(request.googleToken) val jwtToken = jwtTokenService.generateToken(request.username) return JwtAuthenticationResponse(jwtToken, &#34;&#34;) } } Non fa niente di complicato, in effetti, fa solo tre cose:">
 
     <meta property="og:url" content="http://localhost:1313/2019/10/autenticazione-via-token-jwt-con-angular-e-spring-boot-parte-3-generazione-del-token-jwt/">
-  <meta property="og:site_name" content="Raibaz.">
-  <meta property="og:title" content="Autenticazione via token JWT con Angular e Spring Boot: parte 3, generazione del token JWT">
-  <meta property="og:description" content="(Questo è il quarto post di una serie che inizia qui e prosegue qui e qui)
+	<meta property="og:site_name" content="Raibaz.">
+	<meta property="og:title" content="Autenticazione via token JWT con Angular e Spring Boot: parte 3, generazione del token JWT">
+	<meta property="og:description" content="(Questo è il quarto post di una serie che inizia qui e prosegue qui e qui)
 Nelle puntate precedenti:
 Abbiamo descritto come funziona il flusso dell’autenticazione Abbiamo visto l’implementazione del Google login nell’applicazione Angular Abbiamo visto come configurare Spring Boot per gestire l’autenticazione Ci resta solo da vedere come è effettivamente implementato l’endpoint /authenticate, che valida l’utente e gli restituisce un token JWT.
 Il servizio invocato dal controller è fatto così:
 @Service class JwtAuthenticationService( private val userService: UserService, private val googleIdTokenVerifierService: GoogleIdTokenVerifierService, private val jwtTokenService: JwtTokenService ) { fun authenticate(request: JwtAuthenticationRequest): JwtAuthenticationResponse { userService.findByEmail(request.username) ?: throw UsernameNotFoundException(&#34;User with email $request.username not found.&#34;) googleIdTokenVerifierService.verifyToken(request.googleToken) val jwtToken = jwtTokenService.generateToken(request.username) return JwtAuthenticationResponse(jwtToken, &#34;&#34;) } } Non fa niente di complicato, in effetti, fa solo tre cose:">
-  <meta property="og:locale" content="it_it">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2019-10-11T07:51:01+00:00">
-    <meta property="article:modified_time" content="2019-10-11T07:51:01+00:00">
-    <meta property="og:image" content="http://localhost:1313/images/main-image.png">
+	<meta property="og:locale" content="it_it">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="posts">
+		<meta property="article:published_time" content="2019-10-11T07:51:01+00:00">
+		<meta property="article:modified_time" content="2019-10-11T07:51:01+00:00">
+		<meta property="og:image" content="http://localhost:1313/images/main-image.png">
 
 
     <title>
@@ -98,7 +98,7 @@ Il servizio invocato dal controller è fatto così:
 
     
 
-    <meta name="generator" content="Hugo 0.142.0">
+    <meta name="generator" content="Hugo 0.170.1">
   </head>
 
   
@@ -251,7 +251,7 @@ class GoogleIdTokenVerifierService {
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-C88PX52YNP"></script>
       <script>
         var doNotTrack = false;
-        if ( false ) {
+        if ( true ) {
           var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
           var doNotTrack = (dnt == "1" || dnt == "yes");
         }
